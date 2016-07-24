@@ -1,0 +1,1 @@
+﻿But this file does contain a BOM.
