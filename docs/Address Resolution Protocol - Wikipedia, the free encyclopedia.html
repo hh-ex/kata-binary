@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html dir="ltr" class="client-js ve-not-available" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Address Resolution Protocol - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Address_Resolution_Protocol","wgTitle":"Address Resolution Protocol","wgCurRevisionId":727674787,"wgRevisionId":727674787,"wgArticleId":47986,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing clarification from February 2015","Windows commands","Internet Standards","Link protocols"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Address_Resolution_Protocol","wgRelevantArticleId":47986,"wgRequestId":"V5ZM0QpAICoAADqU1PkAAABX","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q15171","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);mw.loader.state({"ext.cite.styles":"ready","ext.tmh.thumbnail.styles":"ready","ext.uls.nojs":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.legacy.shared":"ready","mediawiki.raggett":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","wikibase.client.init":"ready","site.styles":"ready","noscript":"ready","user.cssprefs":"ready"});});</script>
+<link rel="stylesheet" href="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/load.css">
+<style>
+.uls-menu{border-radius:4px; font-size:medium}.uls-search,.uls-language-settings-close-block{border-top-right-radius:4px;border-top-left-radius:4px}.uls-language-list{border-bottom-right-radius:4px;border-bottom-left-radius:4px}.uls-menu.callout .caret-before,.uls-menu.callout .caret-after{border-top:10px solid transparent;border-right:10px solid #c9c9c9;border-bottom:10px solid transparent;display:inline-block;left:-11px; top:17px;position:absolute}.uls-menu.callout .caret-after{border-right:10px solid #fcfcfc;display:inline-block;left:-10px}.uls-menu.callout--languageselection .caret-after{border-right:10px solid #fff}.uls-ui-languages button{margin:5px 15px 5px 0;white-space:nowrap;overflow:hidden}.uls-search-wrapper-wrapper{position:relative;padding-left:40px;margin-top:5px;margin-bottom:5px}.uls-icon-back{background:transparent url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.png?90e9b) no-repeat scroll center center;background-image:-webkit-linear-gradient( transparent,transparent ),url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.svg?ae714);background-image:linear-gradient( transparent,transparent ),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20id%3D%22Layer_1%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M7%2013.1l8.9%208.9c.8-.8.8-2%200-2.8l-6.1-6.1%206-6.1c.8-.8.8-2%200-2.8L7%2013.1z%22%20id%3D%22path3%22%20fill%3D%22%23555%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-image:linear-gradient( transparent,transparent ),url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.svg?ae714)!ie;background-size:28px;background-position:center center;height:32px;width:40px;display:block;position:absolute;left:0;border-right:1px solid #c9c9c9;opacity:0.8}.uls-icon-back:hover{opacity:1;cursor:pointer}
+#container{position:relative;min-height:100%}#container,video{width:100%;height:100%}#playerContainer{overflow:hidden;position:relative;height:100%;background:#000}#videoHolder{position:relative;overflow:hidden}.fullscreen #playerContainer{position:absolute !important;width:100% !important;height:100%! important;z-index:9999;min-height:100%;top:0;left:0;margin:0}.mwEmbedPlayer{width:100%;height:100%;overflow:hidden;position:absolute;top:0;left:0}.modal_editor{ left:10px;top:10px;right:10px;bottom:10px;position:fixed;z-index:100}.displayHTML a:visited{color:white}.loadingSpinner{width:32px;height:32px;display:block;padding:0px;background-image:url(/w/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/loading_ani.gif?a51c5)}.mw-imported-resource{border:thin solid black}.kaltura-icon{background-image:url(/w/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/kaltura_logo_sm_transparent.png?fa5c4) !important;background-repeat:no-repeat;display:block;height:12px;width:12px;margin-top:2px !important;margin-left:3px !important}.mw-fullscreen-overlay{background:rgb(0,0,0) none repeat scroll 0% 0%;position:fixed;top:0pt;left:0pt;width:100%;height:100%;-moz-background-clip:border;-moz-background-origin:padding;-moz-background-inline-policy:continuous} .play-btn-large{width:70px;height:53px;background :url(/w/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/player_big_play_button.png?69699);position :absolute;cursor :pointer;border :none !important; }.play-btn-large:hover{background :url(/w/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/player_big_play_button_hover.png?97c2a)}.carouselContainer{position :absolute;width :100%;z-index :2}.carouselVideoTitle{position :absolute;top :0px;left :0px;width :100%;background :rgba(0,0,0,0.8);color :white;font-size :small;font-weight :bold;z-index :2}.carouselVideoTitleText{display :block;padding :10px 10px 10px 20px}.carouselTitleDuration{position :absolute;top :0px;right :0px;padding :2px;background-color :#5A5A5A;color :#D9D9D9;font-size :smaller;z-index :2}.carouselImgTitle{position :absolute;width :100%;text-align :center;color :white;font-size :small;background :rgba(0,0,0,0.4)}.carouselImgDuration{position :absolute;top :2px;left :2px;background :rgba( 0,0,0,0.7 );color :white;padding :1px 6px;font-size :small}.carouselPrevButton,.carouselNextButton{display :block;position :absolute;bottom:23px}.carouselPrevButton{left :5px}.carouselNextButton{right:6px}.alert-container{border-radius:3px;background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.04,rgb(215,215,215)),color-stop(0.55,rgb(230,230,230)),color-stop(1,rgb(255,255,255)));background-image:-o-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-ms-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-moz-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-webkit-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);margin:auto;position:absolute;top:0;left:0;right:0;bottom:0;max-width:80%;max-height:30%}.alert-title{background-color :#E6E6E6;padding :5px;border-bottom :1px solid #D1D1D1;font-weight :normal !important;font-size:14px !important;border-top-left-radius:3px;border-top-right-radius:3px }.alert-message{padding :5px;font-weight :normal !important;text-align:center;font-size:14px !important}.alert-buttons-container{text-align:center;padding-bottom:5px}.alert-button{background-color:#474747;color:white;border-radius:.5em;padding:2px 10px;background-image:-webkit-gradient( linear,left bottom,left top,color-stop(0.04,rgb(25,25,25)),color-stop(0.55,rgb(47,47,47)),color-stop(0.68,rgb(71,71,71)) );background-image:-o-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-moz-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-ms-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-webkit-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%)}.alert-text{color :black !important}
+.PopUpMediaTransform a .play-btn-large{top:50%;left :50%;width:70px;height:53px;margin-left:-35px;margin-top:-25px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA1CAYAAAD8mJ3rAAADNklEQVR4AWJAAhxA7AHEeUDcP8JwHtTvHAxoQAuI5wDxZkD75qBkSRKG0bZt21h7t23btm2bO7ZthNq2rq3mo0zWeKaty6yI8wB1Et+fEnDuIC4+SdEGvIBSPvP6oxOhYihjG8WImHtQxDaAk52GEeQFT4uBYqAYKAaKUVNTG9bX1x+FYj4iLi4+UFVVRXjz5s0Wwo0bN1geHh7zAi8mKSkJ9fLly63vOX/+POO3336bElgx////P/3Fixdbu9HS0kKxsLAYFzgxZ8+eZTx9+nRzP8rKygh6enqjAiOmt7eX/ujRo82DcP/+/fWsrCyskpLSEN+L6e7upoMf3jgMt27dWouKilqRkZEZ5FsxHR0dtDt37qwfhUuXLrG8vb0XxMTEBvhODJhcaSCi149DZ2cn3cHBYZavxDQ2NlKvXLmydhLU19dTfvjhhym+EFNXV0e5ePHi6klSVFREMDIyGuNpMdXV1WQQ2azTIDU1FaOpqTnCk2IqKirIPT09zNOiq6uLARIMpaCgMMhTYkpLS0kgmZinDZjk6SDBFiUlJQd4QkxhYSGxra2Nzi7AgpVibm4+zvVi8vLyiE1NTXR2gshBeg5Xi8nOziaAZKKxG7AwneBqMZmZmQSQTFR2o6OjM8LVYkCk4svLyynsJCYmBs31c0xycjKupKSEwg5A4Ud2c3NbkJCQGOB6MfHx8diCggLyaePr67ukqKg4xDN1DOjWWJBMpNMiODgYtb365QExoCrFgs0n4kkTHh6OBqcOYzy7VoqIiMCkp6cTT4ro6GgsKOAmeH51HRYWhgbJRDgusbGxODs7uylhYeF+vth2CAkJQYNkIhwVRMgvv/wyg5xP8dVGVVBQECoxMRF/WECa4f7666+57aU9n4gJCAhAIT95GBwcHObl5OQG+fqUwN/fH4UMh4Pg7u6+pKqqOsx+AVwqxsfHZ0VLS2tUoE4ikV6wm5DAwECUsbHxuECeXevq6o59LwREOMbKympyW/QKkhgEZJi4uLgsIr0H1CLT+0QvvFEFxUAxUAwUA8Xs+pYAviUohSK2UfrpvdJrKOMzbz86ef/9AIfU5yH0AyJklzeR8E3kO5B6nR5s2Y8qAAAAAElFTkSuQmCC);background-image:url(/w/extensions/TimedMediaHandler/resources/player_big_play_button.png?f49a4)!ie}.PopUpMediaTransform a .play-btn-large :hover{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA1CAYAAAD8mJ3rAAADSklEQVR4AeybA4wlWRRA1/u1tjG2g3YHY0/U4djTtm3btm3bTtu27du2WVXvJif8PIV3Ue+jBUECrgPsgAbBYAeuTzlYEicBU8CH4JhOuZiJ3wBHJGUOlyknEJxIxlLACYQ5ErEMcLLSZYRwRGKQGCQGicG0mP/++y/4/Pnz4UjMDCQSyQ+ianR0dGyS6urqbnZ29nTCi9HR0SkYHBwcW0peXl7Ho0ePEggrJisrq62/v390NWJjYxsZGRmjCCcmJyeno7u7e2Q9PDw8qs6ePRtOGDEZGRntEMMbobm5edDCwqLsjz/+CMK9mNTU1Db4w0Oboaampk9BQSH/22+/DcCtmMTExNb6+vrBrVBYWNjNzc2d+eWXX/rhTkx0dHRLZWXlwHZISkpqe/LkSSquxISHhzeXlJT07QShoaFNN2/ejMeFmODg4KaCgoLencTZ2bn68uXLEZgW4+/v3wBLdvduYGBgUHL06NFQTIrx9vauT09P79otUlJSOhQVFQt++eWXQEyJcXNzq4OVqXO3iYqKaoMVLJtGo/ljQoyjo2MtpP3tewUUrE0MDAzRB16MjY1NDaxMbXuJr69vE5VK9T/QYiDFrw4KCmrda6AwjTnQYkxMTKrg9G7ea06ePBl2oMXAklrp6enZtJcoKSkVY6FRVeHi4tK4F8CNvuHNmzdZFArF/8CLUVdXL7O3t6/fbXh4eHJ//fXXIMzkMcrKyqXW1tZ1u4WoqGjBkSNHQjGX+crLy5eamZnV7jTS0tLF586di8RsrSQjI1NiZGRUs1NA+l9KT08fg/nqWlJSslhfX796u6ioqJRfu3Yt/pNPPvHFRdtBTEysSFtbu2qrgJCKe/fuJZPJZH9cNapEREQKNTU1KzeLmppaBRsbW9qyohAvYgQFBQsm/+RmgDZmxo8//hiI6ykBPz9/weTlsBHevn2b+88//4TMvZ/oYri5ufOPHz8eTqhJ5Lt373JWEyIsLFx45cqVaELOrk+fPh0J2W/5QiGwhJewsrLGzS29RBQzyeRl8vLly+zJswdykUQSieSPHhxaHSQGiUFikBgkBu0lWH0vATcSsQzu2f1KLkjGHG4TA4cJFOjBs9RoFtIDBQiOPZGjeyIBuiuBC06Nbn0AAAAASUVORK5CYII=);background-image:url(/w/extensions/TimedMediaHandler/resources/player_big_play_button_hover.png?8a926)!ie} .mw-tmh-playtext{display:block;height:0;overflow:hidden}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba( 255,255,255,0.5 );border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bdu2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+mz+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/lS0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYXsPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWdzaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjsWO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsxUAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=);background-image:url(/w/resources/src/mediawiki.action/images/green-checkmark.png?d94f1)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:#000;text-shadow:0 0.0625em 0 #fff;text-decoration:none;opacity:0.2;filter:alpha( opacity=20 )}.postedit-close:hover{color:#000;text-decoration:none;opacity:0.4;filter:alpha( opacity=40 )}
+@-webkit-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-moz-transform:translateY(-20px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-o-transform:translateY(-20px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframes centralAuthPPersonalAnimation{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.centralAuthPPersonalAnimation{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:centralAuthPPersonalAnimation;-moz-animation-name:centralAuthPPersonalAnimation;-o-animation-name:centralAuthPPersonalAnimation;animation-name:centralAuthPPersonalAnimation}
+.ext-quick-survey-panel,.ext-qs-loader-bar{width:auto;background-color:#eeeeee} .ext-qs-loader-bar{display:block;height:100px;margin-left:1.4em;clear:right;float:right;background-color:#eeeeee}.ext-qs-loader-bar.mw-ajax-loader{top:0}@media all and (min-width:720px){.ext-qs-loader-bar,.ext-quick-survey-panel{margin-left:1.4em;width:300px;clear:right;float:right}}
+@media print{#centralNotice{display:none}}.cn-closeButton{display:inline-block;zoom:1;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAACeklEQVR4Aa1UM3jkcRBN6qS//tTFttPHqmI359VZ5dm2L1zFtr02YlRx5sX2ft/7ed7O/w1M5ufnt8NZQjCBQXhG+IYZe5zjfju7xcHc3NzEzMwM6xOEqNnZ2ZeVlZW827dv1ycmJnbGx8d3Yr5582Z9eXk5D/d4h/empqYm+K0nw3yKcF4sFmdzOJzGgIAAhb29vc7Ozk6/Atrr/fz8lCwWq6m3tzcb72G3nmzFo/NNTU354eHhIltbW72Tk5M2IyND9P79+8ZPnz7VvXnzpoHBYPS4uLhobGxsDMHBwaLa2tp82MF+PVmUUqnMioiI6LOysjLQLCcPS2ZmZn7Ozc39oPtFYG80GgWpqakSS0tLY1hYmEgikWTBfoXsLD16BT3gUWhoqEKtVheREZ+Qu0IEjI+PZ2k0GqFer+cnJSWJra2tDWw2u2FqauoVeEAW3NzcnBcYGCh3dHTUtba2ltNjLvRJSEiQEQEPRENDQzkMBqPXwsKiXyqVFsFDNzc3LWmoqKmp4YIHZIyHDx9WOzg46GJiYmTk5e/h4eHstLQ0CX2ykXST4JPJ8y7sSVM5/QGMf9y4caMHf3r//v1a8IDsGRm04/D58+dtpNFPPNRqtflXrlzpI8G15IEGc2xsrFSlUglwD+Tk5NRBmuTk5A7wgOxbXFxcF8iysrIa1mskEolKvL29Ne7u7mpXV1dNaWlp9fr7X79+VYMMeQieY/dsv5p1r2g2Nja2vWZ7RXNiYuIA0dwlzwYGBjbkGXmURXeLeUa1ul2ebV8BEH+7CiAiASTYvgJ2qc3MzMzF2vz8+XPd27dvG5hMZg+CsV1tHmfXOP5+dqyddgHOI7v1srTdcwAAAABJRU5ErkJggg==);background:url(/w/extensions/CentralNotice/resources/subscribing/CloseWindow19x19.png?7596b)!ie;width:19px;height:19px;text-indent:19px;white-space:nowrap;overflow:hidden}
+.cite-accessibility-label{ top:-99999px;clip:rect( 1px 1px 1px 1px ); clip:rect( 1px,1px,1px,1px ); position:absolute !important;padding:0 !important;border:0 !important;height:1px !important;width:1px !important; overflow:hidden}
+.referencetooltip{position:absolute;list-style:none;list-style-image:none;opacity:0;font-size:10px;margin:0;z-index:5;padding:0}.referencetooltip li{border:#080086 2px solid;max-width:260px;padding:10px 8px 13px 8px;margin:0px;background-color:#F7F7F7;-webkit-box-shadow:2px 4px 2px rgba(0,0,0,0.3);-moz-box-shadow:2px 4px 2px rgba(0,0,0,0.3);box-shadow:2px 4px 2px rgba(0,0,0,0.3)}.referencetooltip li+li{margin-left:7px;margin-top:-2px;border:0;padding:0;height:3px;width:0px;background-color:transparent;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border-top:12px #080086 solid;border-right:7px transparent solid;border-left:7px transparent solid}.referencetooltip>li+li::after{content:'';border-top:8px #F7F7F7 solid;border-right:5px transparent solid;border-left:5px transparent solid;margin-top:-12px;margin-left:-5px;z-index:1;height:0px;width:0px;display:block}.client-js body .referencetooltip li li{border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;height:auto;width:auto;margin:auto;padding:0;position:static}.RTflipped{padding-top:13px}.referencetooltip.RTflipped li+li{position:absolute;top:2px;border-top:0;border-bottom:12px #080086 solid}.referencetooltip.RTflipped li+li::after{border-top:0;border-bottom:8px #F7F7F7 solid;position:absolute;margin-top:7px}.RTsettings{float:right;height:24px;width:24px;cursor:pointer;background-image:url(//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Gear_icon.svg/24px-Gear_icon.svg.png);background-image:linear-gradient(transparent,transparent),url(//upload.wikimedia.org/wikipedia/commons/7/77/Gear_icon.svg);margin-top:-9px;margin-right:-7px;-webkit-transition:opacity 0.15s;-moz-transition:opacity 0.15s;-ms-transition:opacity 0.15s;-o-transition:opacity 0.15s;transition:opacity 0.15s;opacity:0.6;filter:alpha(opacity=60)}.RTsettings:hover{opacity:1;filter:alpha(opacity=100)}.RTTarget{border:#080086 2px solid}
+.skin-vector li.GA,.skin-monobook li.GA,.skin-modern li.GA{list-style-image:url(//upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png)} .skin-vector li.FA,.skin-monobook li.FA{list-style-image:url(//upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png)}.skin-modern li.FA{list-style-image:url(//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Modern-bullet-star.svg/9px-Modern-bullet-star.svg.png)}
+.wp-teahouse-question-form{position:absolute;margin-left:auto;margin-right:auto;background-color:#f4f3f0;border:1px solid #a7d7f9;padding:1em}#wp-th-question-ask{float:right}.wp-teahouse-ask a.external{background-image:none !important}.wp-teahouse-respond-form{position:absolute;margin-left:auto;margin-right:auto;background-color:#f4f3f0;border:1px solid #a7d7f9;padding:1em}.wp-th-respond{float:right}.wp-teahouse-respond a.external{background-image:none !important}
+#p-lang .uls-settings-trigger{background:transparent no-repeat right top;background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.png?30312);background-image:linear-gradient(transparent,transparent),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2214%22%20height%3D%2232%22%3E%3Cdefs%3E%3Cpath%20d%3D%22M14%209.3V6.73l-1.575-.264c-.117-.44-.292-.848-.496-1.2l.93-1.285-1.81-1.84-1.31.908c-.38-.205-.79-.38-1.196-.497L8.284%201H5.716l-.263%201.578c-.437.117-.816.293-1.196.497L2.975%202.17%201.137%203.98l.934%201.287c-.2.38-.376.79-.493%201.228L0%206.73V9.3l1.575.264c.117.438.292.818.496%201.198l-.93%201.315L2.95%2013.89l1.312-.938c.38.205.787.38%201.224.497L5.746%2015h2.566l.263-1.578c.408-.117.817-.293%201.196-.497l1.315.935%201.81-1.812-.935-1.315c.203-.38.38-.76.495-1.2L14%209.303zm-7%201.404c-1.488%200-2.683-1.2-2.683-2.69S5.542%205.327%207%205.327c1.458%200%202.683%201.198%202.683%202.69%200%201.49-1.195%202.688-2.683%202.688z%22%20id%3D%22a%22%2F%3E%3C%2Fdefs%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20fill%3D%22%23808080%22%2F%3E%3Cuse%20transform%3D%22translate%280%2016%29%22%20xlink%3Ahref%3D%22%23a%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E%0A);background-image:linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?624e4)!ie;background-image:-o-linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.png?30312);height:16px;width:14px;float:right;cursor:pointer}.skin-vector #p-lang .uls-settings-trigger{ margin-top:3px}#p-lang .uls-settings-trigger:hover{background-position:right -16px}
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toctoggle{display:none}}
+.mw-ui-button{font-family:inherit;font-size:1em;display:inline-block;min-width:4em;max-width:28.75em;padding:.5em 1em;margin:0;border-radius:2px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;*display:inline;zoom:1;vertical-align:middle;background:#ffffff;color:#555555;border:1px solid #cccccc;text-align:center;font-weight:bold;cursor:pointer}.mw-ui-button:hover{background-color:#cccccc}.mw-ui-button:focus{border-color:#ffffff;box-shadow:inset 0 0 0 1px #ffffff,inset 0 0 0 2px #ffffff;outline-width:0}.mw-ui-button:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button:active,.mw-ui-button.is-on,.mw-ui-button.mw-ui-checked{background-color:#777777;box-shadow:none}.mw-ui-button:hover,.mw-ui-button:active,.mw-ui-button:visited{color:#555555}.mw-ui-button:focus{background-color:#cccccc}.mw-ui-button:disabled{color:#cccccc}.mw-ui-button:disabled:hover,.mw-ui-button:disabled:active{background:#ffffff;box-shadow:none}.mw-ui-button:disabled{text-shadow:none;cursor:default}.mw-ui-button.mw-ui-big{font-size:1.3em}.mw-ui-button.mw-ui-block{display:block;width:100%;margin-left:auto;margin-right:auto}.mw-ui-button.mw-ui-progressive,.mw-ui-button.mw-ui-primary{background:#347bff;color:#fff;border:1px solid #347bff;text-shadow:0 1px rgba(0,0,0,0.1)}.mw-ui-button.mw-ui-progressive:hover,.mw-ui-button.mw-ui-primary:hover{background-color:#2962cc}.mw-ui-button.mw-ui-progressive:focus,.mw-ui-button.mw-ui-primary:focus{border-color:#ffffff;box-shadow:inset 0 0 0 1px #347bff,inset 0 0 0 2px #ffffff;outline-width:0}.mw-ui-button.mw-ui-progressive:focus::-moz-focus-inner,.mw-ui-button.mw-ui-primary:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button.mw-ui-progressive:active,.mw-ui-button.mw-ui-primary:active,.mw-ui-button.mw-ui-progressive.is-on,.mw-ui-button.mw-ui-primary.is-on,.mw-ui-button.mw-ui-progressive.mw-ui-checked,.mw-ui-button.mw-ui-primary.mw-ui-checked{background-color:#2962cc;box-shadow:none}.mw-ui-button.mw-ui-progressive:disabled,.mw-ui-button.mw-ui-primary:disabled{background-color:#dddddd;border-color:#dddddd}.mw-ui-button.mw-ui-progressive:disabled:hover,.mw-ui-button.mw-ui-primary:disabled:hover,.mw-ui-button.mw-ui-progressive:disabled:active,.mw-ui-button.mw-ui-primary:disabled:active,.mw-ui-button.mw-ui-progressive:disabled.mw-ui-checked,.mw-ui-button.mw-ui-primary:disabled.mw-ui-checked{box-shadow:none}.mw-ui-button.mw-ui-progressive.mw-ui-quiet,.mw-ui-button.mw-ui-primary.mw-ui-quiet{color:#555555}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover,.mw-ui-button.mw-ui-primary.mw-ui-quiet:hover,.mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus,.mw-ui-button.mw-ui-primary.mw-ui-quiet:focus{background-color:transparent;color:#347bff}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:active,.mw-ui-button.mw-ui-primary.mw-ui-quiet:active,.mw-ui-button.mw-ui-progressive.mw-ui-quiet.mw-ui-checked,.mw-ui-button.mw-ui-primary.mw-ui-quiet.mw-ui-checked{color:#2962cc}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:disabled,.mw-ui-button.mw-ui-primary.mw-ui-quiet:disabled{color:#cccccc}.mw-ui-button.mw-ui-constructive{background:#347bff;color:#fff;border:1px solid #347bff;text-shadow:0 1px rgba(0,0,0,0.1)}.mw-ui-button.mw-ui-constructive:hover{background-color:#2962cc}.mw-ui-button.mw-ui-constructive:focus{border-color:#ffffff;box-shadow:inset 0 0 0 1px #347bff,inset 0 0 0 2px #ffffff;outline-width:0}.mw-ui-button.mw-ui-constructive:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button.mw-ui-constructive:active,.mw-ui-button.mw-ui-constructive.is-on,.mw-ui-button.mw-ui-constructive.mw-ui-checked{background-color:#2962cc;box-shadow:none}.mw-ui-button.mw-ui-constructive:disabled{background-color:#dddddd;border-color:#dddddd}.mw-ui-button.mw-ui-constructive:disabled:hover,.mw-ui-button.mw-ui-constructive:disabled:active,.mw-ui-button.mw-ui-constructive:disabled.mw-ui-checked{box-shadow:none}.mw-ui-button.mw-ui-constructive.mw-ui-quiet{color:#555555}.mw-ui-button.mw-ui-constructive.mw-ui-quiet:hover,.mw-ui-button.mw-ui-constructive.mw-ui-quiet:focus{background-color:transparent;color:#347bff}.mw-ui-button.mw-ui-constructive.mw-ui-quiet:active,.mw-ui-button.mw-ui-constructive.mw-ui-quiet.mw-ui-checked{color:#2962cc}.mw-ui-button.mw-ui-constructive.mw-ui-quiet:disabled{color:#cccccc}.mw-ui-button.mw-ui-destructive{background:#d11d13;color:#fff;border:1px solid #d11d13;text-shadow:0 1px rgba(0,0,0,0.1)}.mw-ui-button.mw-ui-destructive:hover{background-color:#a7170f}.mw-ui-button.mw-ui-destructive:focus{border-color:#ffffff;box-shadow:inset 0 0 0 1px #d11d13,inset 0 0 0 2px #ffffff;outline-width:0}.mw-ui-button.mw-ui-destructive:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button.mw-ui-destructive:active,.mw-ui-button.mw-ui-destructive.is-on,.mw-ui-button.mw-ui-destructive.mw-ui-checked{background-color:#a7170f;box-shadow:none}.mw-ui-button.mw-ui-destructive:disabled{background-color:#dddddd;border-color:#dddddd}.mw-ui-button.mw-ui-destructive:disabled:hover,.mw-ui-button.mw-ui-destructive:disabled:active,.mw-ui-button.mw-ui-destructive:disabled.mw-ui-checked{box-shadow:none}.mw-ui-button.mw-ui-destructive.mw-ui-quiet{color:#555555}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:hover,.mw-ui-button.mw-ui-destructive.mw-ui-quiet:focus{background-color:transparent;color:#d11d13}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:active,.mw-ui-button.mw-ui-destructive.mw-ui-quiet.mw-ui-checked{color:#a7170f}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:disabled{color:#cccccc}.mw-ui-button.mw-ui-quiet{background:transparent;border:0;text-shadow:none;color:#555555}.mw-ui-button.mw-ui-quiet:hover,.mw-ui-button.mw-ui-quiet:focus{background-color:transparent;color:#555555}.mw-ui-button.mw-ui-quiet:active,.mw-ui-button.mw-ui-quiet.mw-ui-checked{color:#777777}.mw-ui-button.mw-ui-quiet:disabled{color:#cccccc}.mw-ui-button.mw-ui-quiet:hover,.mw-ui-button.mw-ui-quiet:focus{box-shadow:none}.mw-ui-button.mw-ui-quiet:active,.mw-ui-button.mw-ui-quiet:disabled{background:transparent}a.mw-ui-button{text-decoration:none;line-height:normal}a.mw-ui-button:hover,a.mw-ui-button:focus{text-decoration:none}.mw-ui-button-group > *{min-width:48px;border-radius:0;float:left}.mw-ui-button-group > *:first-child{border-top-left-radius:2px;border-bottom-left-radius:2px}.mw-ui-button-group > *:not( :first-child ){border-left:0}.mw-ui-button-group > *:last-child{border-top-right-radius:2px;border-bottom-right-radius:2px}.mw-ui-button-group .is-on .button{cursor:default}
+.mw-ui-icon{position:relative;min-height:1.5em;min-width:1.5em}.mw-ui-icon.mw-ui-icon-element{text-indent:-999px;overflow:hidden;width:3.5em;min-width:3.5em;max-width:3.5em}.mw-ui-icon.mw-ui-icon-element:before{left:0;right:0;position:absolute;margin:0 1em}.mw-ui-icon.mw-ui-icon-before:before,.mw-ui-icon.mw-ui-icon-element:before{background-position:50% 50%;background-repeat:no-repeat;background-size:100% auto;float:left;display:block;min-height:1.5em;content:''}.mw-ui-icon.mw-ui-icon-before:before{position:relative;width:1.5em;margin-right:1em}
+cite,dfn{font-style:inherit} q{quotes:'"' '"' "'" "'"} blockquote{overflow:hidden;margin:1em 0;padding:0 40px} strong.selflink{font-weight:700} small{font-size:85%}.mw-body sub,.mw-body sup,span.reference {font-size:80%} #interwiki-completelist{font-weight:bold}body.page-Main_Page #ca-delete{display:none !important}body.page-Main_Page #mp-topbanner{clear:both} .client-js .mw-special-Watchlist #watchlist-message,.client-js .collapsible.collapsed > tbody > tr:not(:first-child){display:none} span.updatedmarker{background-color:transparent;color:#006400} #toolbar{height:22px;margin-bottom:6px} #editpage-specialchars{display:none} body.action-info :target,.citation:target{background-color:#DEF; background-color:rgba(0,127,255,0.133)} .citation{word-wrap:break-word} @media screen,handheld{.citation .printonly{display:none}} ol.references,div.reflist,div.refbegin{font-size:90%; margin-bottom:0.5em}div.refbegin-100{font-size:100%; }div.reflist ol.references{font-size:100%; list-style-type:inherit; } sup.reference{font-weight:normal;font-style:normal} span.brokenref{display:none} div.columns{margin-top:0.3em}div.columns dl,div.columns ol,div.columns ul{margin-top:0} .nocolbreak,div.columns li,div.columns dd dd{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid-column} .flowlist ul{overflow-x:hidden;margin-left:0;padding-left:1.6em}.flowlist ol{overflow-x:hidden;margin-left:0;padding-left:3.2em}.flowlist dl{overflow-x:hidden} .hlist dl,.hlist ol,.hlist ul{margin:0;padding:0} .hlist dd,.hlist dt,.hlist li{margin:0;display:inline} .hlist.inline,.hlist.inline dl,.hlist.inline ol,.hlist.inline ul,.hlist dl dl,.hlist dl ol,.hlist dl ul,.hlist ol dl,.hlist ol ol,.hlist ol ul,.hlist ul dl,.hlist ul ol,.hlist ul ul{display:inline} .hlist .mw-empty-li{display:none} .hlist dt:after{content:":"}.hlist dd:after,.hlist li:after{content:" · ";font-weight:bold}.hlist dd:last-child:after,.hlist dt:last-child:after,.hlist li:last-child:after{content:none} .hlist dd dd:first-child:before,.hlist dd dt:first-child:before,.hlist dd li:first-child:before,.hlist dt dd:first-child:before,.hlist dt dt:first-child:before,.hlist dt li:first-child:before,.hlist li dd:first-child:before,.hlist li dt:first-child:before,.hlist li li:first-child:before{content:" (";font-weight:normal}.hlist dd dd:last-child:after,.hlist dd dt:last-child:after,.hlist dd li:last-child:after,.hlist dt dd:last-child:after,.hlist dt dt:last-child:after,.hlist dt li:last-child:after,.hlist li dd:last-child:after,.hlist li dt:last-child:after,.hlist li li:last-child:after{content:")";font-weight:normal} .hlist ol{counter-reset:listitem}.hlist ol > li{counter-increment:listitem}.hlist ol > li:before{content:" " counter(listitem) "\a0"}.hlist dd ol > li:first-child:before,.hlist dt ol > li:first-child:before,.hlist li ol > li:first-child:before{content:" (" counter(listitem) "\a0"} .plainlist ol,.plainlist ul{line-height:inherit;list-style:none none;margin:0}.plainlist ol li,.plainlist ul li{margin-bottom:0} .navbox{ box-sizing:border-box;border:1px solid #aaa;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0; }.navbox .navbox{margin-top:0; }.navbox + .navbox{margin-top:-1px; }.navbox-inner,.navbox-subgroup{width:100%}.navbox-group,.navbox-title,.navbox-abovebelow{padding:0.25em 1em; line-height:1.5em;text-align:center}th.navbox-group{ white-space:nowrap; text-align:right}.navbox,.navbox-subgroup{background:#fdfdfd; }.navbox-list{line-height:1.5em;border-color:#fdfdfd; }.navbox th,.navbox-title{background:#ccccff; }.navbox-abovebelow,th.navbox-group,.navbox-subgroup .navbox-title{background:#ddddff; }.navbox-subgroup .navbox-group,.navbox-subgroup .navbox-abovebelow{background:#e6e6ff; }.navbox-even{background:#f7f7f7; }.navbox-odd{background:transparent; }.navbox .hlist td dl,.navbox .hlist td ol,.navbox .hlist td ul,.navbox td.hlist dl,.navbox td.hlist ol,.navbox td.hlist ul{padding:0.125em 0; } .navbar{display:inline;font-size:88%;font-weight:normal}.navbar ul{display:inline;white-space:nowrap}.mw-body-content .navbar ul{line-height:inherit}.navbar li{word-spacing:-0.125em}.navbar.mini li abbr[title]{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit} .infobox .navbar{font-size:100%}.navbox .navbar{display:block;font-size:100%}.navbox-title .navbar{ float:left; text-align:left; margin-right:0.5em;width:6em} .collapseButton{ float:right;font-weight:normal; margin-left:0.5em; text-align:right;width:auto} .navbox .collapseButton{width:6em} .mw-collapsible-toggle{font-weight:normal; text-align:right}.navbox .mw-collapsible-toggle{width:6em} .infobox{border:1px solid #aaa;border-spacing:3px;background-color:#f9f9f9;color:black; margin:0.5em 0 0.5em 1em;padding:0.2em; float:right; clear:right;font-size:88%;line-height:1.5em}.infobox caption{font-size:125%;font-weight:bold;padding:0.2em}.infobox td,.infobox th{vertical-align:top; text-align:left}.infobox.bordered{border-collapse:collapse}.infobox.bordered td,.infobox.bordered th{border:1px solid #aaa}.infobox.bordered .borderless td,.infobox.bordered .borderless th{border:0}.infobox.sisterproject{width:20em;font-size:90%}.infobox.standard-talk{border:1px solid #c0c090;background-color:#f8eaba}.infobox.standard-talk.bordered td,.infobox.standard-talk.bordered th{border:1px solid #c0c090} .infobox.bordered .mergedtoprow td,.infobox.bordered .mergedtoprow th{border:0;border-top:1px solid #aaa; border-right:1px solid #aaa}.infobox.bordered .mergedrow td,.infobox.bordered .mergedrow th{border:0; border-right:1px solid #aaa} .infobox.geography{border-collapse:collapse;line-height:1.2em;font-size:90%}.infobox.geography td,.infobox.geography th{border-top:1px solid #aaa;padding:0.4em 0.6em 0.4em 0.6em}.infobox.geography .mergedtoprow td,.infobox.geography .mergedtoprow th{border-top:1px solid #aaa;padding:0.4em 0.6em 0.2em 0.6em}.infobox.geography .mergedrow td,.infobox.geography .mergedrow th{border:0;padding:0 0.6em 0.2em 0.6em}.infobox.geography .mergedbottomrow td,.infobox.geography .mergedbottomrow th{border-top:0;border-bottom:1px solid #aaa;padding:0 0.6em 0.4em 0.6em}.infobox.geography .maptable td,.infobox.geography .maptable th{border:0;padding:0} .wikitable.plainrowheaders th[scope=row]{font-weight:normal; text-align:left} .wikitable td ul,.wikitable td ol,.wikitable td dl{ text-align:left} .toc.hlist ul,#toc.hlist ul,.wikitable.hlist td ul,.wikitable.hlist td ol,.wikitable.hlist td dl{text-align:inherit} div.listenlist{background:url(//upload.wikimedia.org/wikipedia/commons/4/47/Sound-icon.svg) no-repeat scroll 0 0 transparent;background-size:30px;padding-left:40px} table.mw-hiero-table td{vertical-align:middle} div.medialist{min-height:50px;margin:1em; background-position:top left;background-repeat:no-repeat}div.medialist ul{list-style-type:none;list-style-image:none;margin:0}div.medialist ul li{padding-bottom:0.5em}div.medialist ul li li{font-size:91%;padding-bottom:0} div#content a[href$=".pdf"].external,div#content a[href*=".pdf?"].external,div#content a[href*=".pdf#"].external,div#content a[href$=".PDF"].external,div#content a[href*=".PDF?"].external,div#content a[href*=".PDF#"].external,div#mw_content a[href$=".pdf"].external,div#mw_content a[href*=".pdf?"].external,div#mw_content a[href*=".pdf#"].external,div#mw_content a[href$=".PDF"].external,div#mw_content a[href*=".PDF?"].external,div#mw_content a[href*=".PDF#"].external{background:url(//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif) no-repeat right; padding-right:18px} div#content span.PDFlink a,div#mw_content span.PDFlink a{background:url(//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif) no-repeat right; padding-right:18px} div.columns-2 div.column{ float:left;width:50%;min-width:300px}div.columns-3 div.column{ float:left;width:33.3%;min-width:200px}div.columns-4 div.column{ float:left;width:25%;min-width:150px}div.columns-5 div.column{ float:left;width:20%;min-width:120px} .messagebox{border:1px solid #aaa;background-color:#f9f9f9;width:80%;margin:0 auto 1em auto;padding:.2em}.messagebox.merge{border:1px solid #c0b8cc;background-color:#f0e5ff;text-align:center}.messagebox.cleanup{border:1px solid #9f9fff;background-color:#efefff;text-align:center}.messagebox.standard-talk{border:1px solid #c0c090;background-color:#f8eaba;margin:4px auto} .mbox-inside .standard-talk,.messagebox.nested-talk{border:1px solid #c0c090;background-color:#f8eaba;width:100%;margin:2px 0;padding:2px}.messagebox.small{width:238px;font-size:85%; float:right;clear:both; margin:0 0 1em 1em;line-height:1.25em}.messagebox.small-talk{width:238px;font-size:85%; float:right;clear:both; margin:0 0 1em 1em;line-height:1.25em;background:#F8EABA} th.mbox-text,td.mbox-text{ border:none; padding:0.25em 0.9em; width:100%; }td.mbox-image{ border:none; padding:2px 0 2px 0.9em; text-align:center}td.mbox-imageright{ border:none; padding:2px 0.9em 2px 0; text-align:center}td.mbox-empty-cell{ border:none;padding:0;width:1px} table.ambox{margin:0 10%; border:1px solid #aaa; border-left:10px solid #1e90ff; background:#fbfbfb}table.ambox + table.ambox{ margin-top:-1px}.ambox th.mbox-text,.ambox td.mbox-text{ padding:0.25em 0.5em; }.ambox td.mbox-image{  padding:2px 0 2px 0.5em; }.ambox td.mbox-imageright{  padding:2px 0.5em 2px 0; }table.ambox-notice{ border-left:10px solid #1e90ff; }table.ambox-speedy{ border-left:10px solid #b22222; background:#fee; }table.ambox-delete{ border-left:10px solid #b22222; }table.ambox-content{ border-left:10px solid #f28500; }table.ambox-style{ border-left:10px solid #f4c430; }table.ambox-move{ border-left:10px solid #9932cc; }table.ambox-protection{ border-left:10px solid #bba; } table.imbox{margin:4px 10%;border-collapse:collapse;border:3px solid #1e90ff; background:#fbfbfb}.imbox .mbox-text .imbox{ margin:0 -0.5em; display:block; }.mbox-inside .imbox{ margin:4px}table.imbox-notice{border:3px solid #1e90ff; }table.imbox-speedy{border:3px solid #b22222; background:#fee; }table.imbox-delete{border:3px solid #b22222; }table.imbox-content{border:3px solid #f28500; }table.imbox-style{border:3px solid #f4c430; }table.imbox-move{border:3px solid #9932cc; }table.imbox-protection{border:3px solid #bba; }table.imbox-license{border:3px solid #88a; background:#f7f8ff; }table.imbox-featured{border:3px solid #cba135; } table.cmbox{margin:3px 10%;border-collapse:collapse;border:1px solid #aaa;background:#DFE8FF; }table.cmbox-notice{background:#D8E8FF; }table.cmbox-speedy{margin-top:4px;margin-bottom:4px;border:4px solid #b22222; background:#FFDBDB; }table.cmbox-delete{background:#FFDBDB; }table.cmbox-content{background:#FFE7CE; }table.cmbox-style{background:#FFF9DB; }table.cmbox-move{background:#E4D8FF; }table.cmbox-protection{background:#EFEFE1; } table.ombox{margin:4px 10%;border-collapse:collapse;border:1px solid #aaa; background:#f9f9f9}table.ombox-notice{border:1px solid #aaa; }table.ombox-speedy{border:2px solid #b22222; background:#fee; }table.ombox-delete{border:2px solid #b22222; }table.ombox-content{border:1px solid #f28500; }table.ombox-style{border:1px solid #f4c430; }table.ombox-move{border:1px solid #9932cc; }table.ombox-protection{border:2px solid #bba; } table.tmbox{margin:4px 10%;border-collapse:collapse;border:1px solid #c0c090; background:#f8eaba}.mediawiki .mbox-inside .tmbox{ margin:2px 0; width:100%; }.mbox-inside .tmbox.mbox-small{ line-height:1.5em; font-size:100%; }table.tmbox-speedy{border:2px solid #b22222; background:#fee; }table.tmbox-delete{border:2px solid #b22222; }table.tmbox-content{border:2px solid #f28500; }table.tmbox-style{border:2px solid #f4c430; }table.tmbox-move{border:2px solid #9932cc; }table.tmbox-protection,table.tmbox-notice{border:1px solid #c0c090; } table.dmbox{clear:both;margin:0.9em 1em;border-top:1px solid #ccc;border-bottom:1px solid #ccc;background:transparent} table.fmbox{clear:both;margin:0.2em 0;width:100%;border:1px solid #aaa;background:#f9f9f9; }table.fmbox-system{background:#f9f9f9}table.fmbox-warning{border:1px solid #bb7070; background:#ffdbdb; }table.fmbox-editnotice{background:transparent} div.mw-warning-with-logexcerpt,div.mw-lag-warn-high,div.mw-cascadeprotectedwarning,div#mw-protect-cascadeon,div.titleblacklist-warning,div.locked-warning{clear:both;margin:0.2em 0;border:1px solid #bb7070;background:#ffdbdb;padding:0.25em 0.9em} div.mw-lag-warn-normal,div.fmbox-system{clear:both;margin:0.2em 0;border:1px solid #aaa;background:#f9f9f9;padding:0.25em 0.9em} html body.mediawiki .mbox-small{  clear:right; float:right; margin:4px 0 4px 1em;box-sizing:border-box;width:238px;font-size:88%;line-height:1.25em}html body.mediawiki .mbox-small-left{  margin:4px 1em 4px 0;box-sizing:border-box;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}  .compact-ambox table .mbox-image,.compact-ambox table .mbox-imageright,.compact-ambox table .mbox-empty-cell{display:none} .compact-ambox table.ambox{border:none;border-collapse:collapse;background:transparent;margin:0 0 0 1.6em !important;padding:0 !important;width:auto;display:block}body.mediawiki .compact-ambox table.mbox-small-left{font-size:100%;width:auto;margin:0} .compact-ambox table .mbox-text{padding:0 !important;margin:0 !important}.compact-ambox table .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:square;list-style-image:url(//en.wikipedia.org/w/skins/MonoBook/bullet.gif)}.skin-vector .compact-ambox table .mbox-text-span{list-style-type:disc;list-style-image:url(//en.wikipedia.org/w/skins/Vector/images/bullet-icon.svg);list-style-image:url(//en.wikipedia.org/w/skins/Vector/images/bullet-icon.png)\9} .compact-ambox .hide-when-compact{display:none} div.noarticletext{border:none;background:transparent;padding:0} .visualhide{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden} #wpSave{font-weight:bold} .hiddenStructure{display:inline !important;color:#f00;background-color:#0f0} .check-icon a.new{display:none;speak:none} .nounderlines a,.IPA a:link,.IPA a:visited{text-decoration:none !important} div.NavFrame{margin:0;padding:4px;border:1px solid #aaa;text-align:center;border-collapse:collapse;font-size:95%}div.NavFrame + div.NavFrame{border-top-style:none;border-top-style:hidden}div.NavPic{background-color:#fff;margin:0;padding:2px; float:left}div.NavFrame div.NavHead{line-height:1.6em;font-weight:bold;background-color:#ccf;position:relative}div.NavFrame p,div.NavFrame div.NavContent,div.NavFrame div.NavContent p{font-size:100%}div.NavEnd{margin:0;padding:0;line-height:1px;clear:both}a.NavToggle{position:absolute;top:0; right:3px;font-weight:normal;font-size:90%} .hatnote{font-style:italic}.hatnote i{font-style:normal}div.hatnote{ padding-left:1.6em;margin-bottom:0.5em}div.hatnote + div.hatnote{margin-top:-0.5em} .listify td{display:list-item}.listify tr{display:block}.listify table{display:block} .geo-default,.geo-dms,.geo-dec{display:inline}.geo-nondefault,.geo-multi-punct{display:none}.longitude,.latitude{white-space:nowrap} .hlist .tocnumber,.hlist .toctext{display:inline} .nonumtoc .tocnumber{display:none}.nonumtoc #toc ul,.nonumtoc .toc ul{line-height:1.5em;list-style:none none;margin:.3em 0 0;padding:0}.hlist.nonumtoc #toc ul ul,.hlist.nonumtoc .toc ul ul{ margin:0} .toclimit-2 .toclevel-1 ul,.toclimit-3 .toclevel-2 ul,.toclimit-4 .toclevel-3 ul,.toclimit-5 .toclevel-4 ul,.toclimit-6 .toclevel-5 ul,.toclimit-7 .toclevel-6 ul{display:none} blockquote.templatequote div.templatequotecite{line-height:1.5em; text-align:left; padding-left:1.6em;margin-top:0} div.user-block{padding:5px;margin-bottom:0.5em;border:1px solid #A9A9A9;background-color:#FFEFD5} .nowrap,.nowraplinks a,.nowraplinks .selflink,sup.reference a{white-space:nowrap}.nowrap pre{white-space:pre} .wrap,.wraplinks a{white-space:normal} .template-documentation{clear:both;margin:1em 0 0 0;border:1px solid #aaa;background-color:#ecfcf4;padding:1em} #wpUploadDescription{height:13em} .thumbinner{min-width:100px} div.thumb .thumbimage{background-color:#fff} div#content .gallerybox div.thumb{ background-color:#F9F9F9} .gallerybox .thumb img{background:#fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat} .ns-0 .gallerybox .thumb img,.ns-2 .gallerybox .thumb img,.ns-100 .gallerybox .thumb img,.nochecker .gallerybox .thumb img{background:#fff} #mw-subcategories,#mw-pages,#mw-category-media,#filehistory,#wikiPreview,#wikiDiff{clear:both}body.rtl #mw-articlefeedbackv5,body.rtl #mw-articlefeedback{display:block; margin-bottom:1em; clear:right;  float:right; } .wpb .wpb-header{display:none}.wpbs-inner .wpb .wpb-header{display:block} .wpbs-inner .wpb .wpb-header{display:table-row} .wpbs-inner .wpb-outside{display:none}  .mw-tag-markers{font-style:italic;font-size:90%} .sysop-show,.accountcreator-show,.templateeditor-show,.extendedmover-show,.autoconfirmed-show{display:none} .ve-ui-mwNoticesPopupTool-item .editnotice-redlink,.mw-ve-editNotice .editnotice-redlink{display:none !important} ul.permissions-errors > li{list-style:none none}ul.permissions-errors{margin:0} body.page-Special_UserLogin .mw-label label,body.page-Special_UserLogin_signup .mw-label label{white-space:nowrap} .transborder{border:solid transparent} .times-serif,span.texhtml{font-family:"Nimbus Roman No9 L","Times New Roman",Times,serif;font-size:118%;line-height:1}span.texhtml{white-space:nowrap}span.texhtml span.texhtml{font-size:100%}span.mwe-math-mathml-inline{font-size:118%} .digits,.texhtml{-moz-font-feature-settings:"lnum","tnum","kern" 0;-webkit-font-feature-settings:"lnum","tnum","kern" 0;font-feature-settings:"lnum","tnum","kern" 0;font-variant-numeric:lining-nums tabular-nums;font-kerning:none} .mwe-math-fallback-image-display,.mwe-math-mathml-display{margin-left:1.6em !important;margin-top:0.6em;margin-bottom:0.6em}.mwe-math-mathml-display math{display:inline} table#mw-prefixindex-list-table,table#mw-prefixindex-nav-table{width:98%} .portal-column-left{float:left;width:50%}.portal-column-right{float:right;width:49%}.portal-column-left-wide{float:left;width:60%}.portal-column-right-narrow{float:right;width:39%}.portal-column-left-extra-wide{float:left;width:70%}.portal-column-right-extra-narrow{float:right;width:29%}@media only screen and (max-width:800px){ .portal-column-left,.portal-column-right,.portal-column-left-wide,.portal-column-right-narrow,.portal-column-left-extra-wide,.portal-column-right-extra-narrow{float:inherit;width:inherit}} #bodyContent .letterhead{background-image:url(//upload.wikimedia.org/wikipedia/commons/e/e0/Tan-page-corner.png);background-repeat:no-repeat;padding:2em;background-color:#faf9f2} .treeview ul{padding:0;margin:0}.treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.treeview li li{background:url(//upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png) no-repeat 0 -2981px; padding-left:20px;text-indent:0.3em}.treeview li li.lastline{background-position:0 -5971px }.treeview li.emptyline > ul{ margin-left:-1px}.treeview li.emptyline > ul > li:first-child{background-position:0 9px } td .sortkey,th .sortkey{display:none;speak:none} .inputbox-hidecheckboxes form .inputbox-element{display:none !important} .k-player .k-attribution{visibility:hidden} .PopUpMediaTransform a .play-btn-large{margin:0;top:auto;right:auto;bottom:0;left:0} .mw-ve-editNotice .mbox-image{display:none}
+.page-Main_Page #deleteconfirm,.page-Main_Page #t-cite,.page-Main_Page #footer-info-lastmod,.action-view.page-Main_Page #siteSub,.action-view.page-Main_Page #contentSub,.action-view.page-Main_Page .firstHeading{display:none !important} #coordinates{position:absolute;top:0;right:0;float:right;margin:0;padding:0;line-height:1.5em;text-align:right;text-indent:0;font-size:85%;text-transform:none;white-space:nowrap} div.flaggedrevs_short{position:absolute;top:-3em;right:100px;z-index:1} div.vectorMenu div{z-index:2} #siteSub{display:block;font-size:92%} .mw-body .mw-indicators{padding-top:0.4em}
+@media print {
+	.ns-0 .ambox,.ns-0 .navbox,.ns-0 .vertical-navbox,.ns-0 .infobox.sisterproject,.ns-0 .hatnote,.ns-0 .dablink,.ns-0 .metadata,.editlink,.navbar,a.NavToggle,span.collapseButton,span.mw-collapsible-toggle,th .sortkey,td .sortkey{display:none !important} #content cite a.external.text:after,.nourlexpansion a.external.text:after,.nourlexpansion a.external.autonumber:after{display:none !important} table.collapsible tr,div.NavPic,div.NavContent{display:block !important}table.collapsible tr{display:table-row !important} #firstHeading{margin:0} #content a.external.text:after,#content a.external.autonumber:after{word-wrap:break-word}}</style><style>
+.ve-activated #toc,.ve-activated #siteNotice,.ve-activated .mw-indicators,.ve-activated #t-print,.ve-activated #t-permalink,.ve-activated #p-coll-print_export,.ve-activated #t-cite,.ve-deactivating .ve-ui-surface,.ve-active .ve-init-mw-desktopArticleTarget-editableContent{display:none} .ve-activating .ve-ui-surface{height:0;padding:0 !important; overflow:hidden} .ve-loading #content > :not( .ve-init-mw-desktopArticleTarget-loading-overlay ), .ve-activated .ve-init-mw-desktopArticleTarget-uneditableContent{  opacity:0.5;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none; } .ve-activated #content{position:relative} .ve-init-mw-desktopArticleTarget-loading-overlay{position:absolute;left:0;right:0;z-index:1;margin-top:-0.5em}.ve-init-mw-desktopArticleTarget-progress{height:1em;overflow:hidden;margin:0 25%}.ve-init-mw-desktopArticleTarget-progress-bar{height:1em;width:0} .mw-editsection{white-space:nowrap; unicode-bidi:-moz-isolate;unicode-bidi:-webkit-isolate;unicode-bidi:isolate}.mw-editsection-divider{color:#555} .ve-init-mw-desktopArticleTarget-progress{height:0.75em;border:1px solid #347bff;background:#fff;border-radius:2px;box-shadow:0 0.1em 0 0 rgba( 0,0,0,0.15 )}.ve-init-mw-desktopArticleTarget-progress-bar{height:0.75em;background:#347bff}
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
+.mw-mmv-overlay{position:fixed;top:0px;left:0px;right:0px;bottom:0px;z-index:1000;background-color:#000000}body.mw-mmv-lightbox-open{overflow-y:auto}body.mw-mmv-lightbox-open #mw-page-base,body.mw-mmv-lightbox-open #mw-head-base,body.mw-mmv-lightbox-open #mw-navigation,body.mw-mmv-lightbox-open #content,body.mw-mmv-lightbox-open #footer,body.mw-mmv-lightbox-open #globalWrapper{ display:none}body.mw-mmv-lightbox-open > *{ display:none}body.mw-mmv-lightbox-open > .mw-mmv-overlay,body.mw-mmv-lightbox-open > .mw-mmv-wrapper{display:block}.mw-mmv-filepage-buttons{margin-top:5px}.mw-mmv-filepage-buttons .mw-mmv-view-expanded,.mw-mmv-filepage-buttons .mw-mmv-view-config{display:block;line-height:inherit}.mw-mmv-filepage-buttons .mw-mmv-view-expanded.mw-ui-icon:before{background-image:url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%20768%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22%23777%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M851.2%2071.6L690.7%20232.1l-40.1-40.3-9.6%20164.8%20164.8-9.3-40.3-40.4L926%20146.4l58.5%2058.5L997.6%200%20792.7%2013.1%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M769.6%2089.3H611.9l70.9%2070.8%207.9%207.5m-47.1%20234.6l-51.2%203%203-51.2%209.4-164.4%205.8-100.3H26.4V768h883.1V387l-100.9%205.8-165%209.4zM813.9%20678H113.6l207.2-270.2%2031.5-12.9L548%20599.8l105.9-63.2%20159.8%20140.8.2.6zm95.6-291.9V228l-79.1%2078.9%207.8%207.9%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A);background-image:url(/w/extensions/MultimediaViewer/resources/mmv/img/expand.svg?b714e)!ie}.mw-mmv-filepage-buttons .mw-mmv-view-config.mw-ui-icon:before{background-image:url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%20768%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M897%20454.6V313.4L810.4%20299c-6.4-23.3-16-45.7-27.3-65.8l50.5-71.4-99.4-100.2-71.4%2050.5c-20.9-11.2-42.5-20.9-65.8-27.3L582.6-1H441.4L427%2085.6c-23.3%206.4-45.7%2016-65.8%2027.3l-71.4-50.5-100.3%2099.5%2050.5%2071.4c-11.2%2020.9-20.9%2042.5-27.3%2066.6L127%20313.4v141.2l85.8%2014.4c6.4%2023.3%2016%2045.7%2027.3%2066.6L189.6%20607l99.5%2099.5%2071.4-50.5c20.9%2011.2%2042.5%2020.9%2066.6%2027.3l14.4%2085.8h141.2l14.4-86.6c23.3-6.4%2045.7-16%2065.8-27.3l71.4%2050.5%2099.5-99.5-50.5-71.4c11.2-20.9%2020.9-42.5%2027.3-66.6l86.4-13.6zm-385%2077c-81.8%200-147.6-66.6-147.6-147.6%200-81.8%2066.6-147.6%20147.6-147.6S659.6%20302.2%20659.6%20384%20593.8%20531.6%20512%20531.6z%22%20fill%3D%22%23777%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-image:url(/w/extensions/MultimediaViewer/resources/mmv/img/gear_gray.svg?330ae)!ie;opacity:0.75}.mw-mmv-filepage-buttons .mw-mmv-view-config.mw-ui-icon:before:hover{opacity:1}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/load_002.css">
+<script async="" src="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/load.php"></script>
+<meta name="generator" content="MediaWiki 1.28.0-wmf.11">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="noindex,follow">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;action=edit">
+<link rel="edit" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;action=edit">
+<link rel="apple-touch-icon" href="https://en.wikipedia.org/static/apple-touch/wikipedia.png">
+<link rel="shortcut icon" href="https://en.wikipedia.org/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://en.wikipedia.org/w/api.php?action=rsd">
+<link rel="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol">
+<link rel="dns-prefetch" href="https://login.wikimedia.org/">
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/">
+<style type="text/css">:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style><script src="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/load_002.php"></script></head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Address_Resolution_Protocol rootpage-Address_Resolution_Protocol skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><div id="centralNotice"></div><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Address Resolution Protocol</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tbody><tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" title="Internet protocol suite">Internet protocol suite</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Application_layer" title="Application layer">Application layer</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol" title="Border Gateway Protocol">BGP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" title="Dynamic Host Configuration Protocol">DHCP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Domain_Name_System" title="Domain Name System">DNS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" title="File Transfer Protocol">FTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol" title="Internet Message Access Protocol">IMAP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol" title="Lightweight Directory Access Protocol">LDAP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Media_Gateway_Control_Protocol" title="Media Gateway Control Protocol">MGCP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol" title="Network News Transfer Protocol">NNTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_Time_Protocol" title="Network Time Protocol">NTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Post_Office_Protocol" title="Post Office Protocol">POP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open_Network_Computing_Remote_Procedure_Call" title="Open Network Computing Remote Procedure Call">ONC/RPC</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Real-time_Transport_Protocol" title="Real-time Transport Protocol">RTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol" title="Real Time Streaming Protocol">RTSP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Routing_Information_Protocol" title="Routing Information Protocol">RIP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Session_Initiation_Protocol" title="Session Initiation Protocol">SIP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol" title="Simple Mail Transfer Protocol">SMTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol" title="Simple Network Management Protocol">SNMP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Secure_Shell" title="Secure Shell">SSH</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Telnet" title="Telnet">Telnet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" title="Transport Layer Security">TLS/SSL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/XMPP" title="XMPP">XMPP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Application_layer_protocols" title="Category:Application layer protocols"><i>more...</i></a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Transport_layer" title="Transport layer">Transport layer</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol" title="User Datagram Protocol">UDP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Datagram_Congestion_Control_Protocol" title="Datagram Congestion Control Protocol">DCCP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol" title="Stream Control Transmission Protocol">SCTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Resource_Reservation_Protocol" title="Resource Reservation Protocol">RSVP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Transport_layer_protocols" title="Category:Transport layer protocols"><i>more...</i></a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Internet_layer" title="Internet layer">Internet layer</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol">IP</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPv4" title="IPv4">IPv4</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPv6" title="IPv6">IPv6</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol" title="Internet Control Message Protocol">ICMP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ICMPv6" class="mw-redirect" title="ICMPv6">ICMPv6</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Explicit_Congestion_Notification" title="Explicit Congestion Notification">ECN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Internet_Group_Management_Protocol" title="Internet Group Management Protocol">IGMP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPsec" title="IPsec">IPsec</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Internet_layer_protocols" title="Category:Internet layer protocols"><i>more...</i></a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Link_layer" title="Link layer">Link layer</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><strong class="selflink">ARP</strong></li>
+<li><a href="https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">NDP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open_Shortest_Path_First" title="Open Shortest Path First">OSPF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tunneling_protocol" title="Tunneling protocol">Tunnels</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Layer_2_Tunneling_Protocol" title="Layer 2 Tunneling Protocol">L2TP</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Point-to-Point_Protocol" title="Point-to-Point Protocol">PPP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Media_access_control" title="Media access control">MAC</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ethernet" title="Ethernet">Ethernet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_subscriber_line" title="Digital subscriber line">DSL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Integrated_Services_Digital_Network" title="Integrated Services Digital Network">ISDN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fiber_Distributed_Data_Interface" title="Fiber Distributed Data Interface">FDDI</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Link_protocols" title="Category:Link protocols"><i>more...</i></a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:IPstack" title="Template:IPstack"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:IPstack" title="Template talk:IPstack"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:IPstack&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+<p>The <b>Address Resolution Protocol</b> (<b>ARP</b>) is a <a href="https://en.wikipedia.org/wiki/Telecommunication" title="Telecommunication">telecommunication</a> protocol used for resolution of <a href="https://en.wikipedia.org/wiki/Internet_layer" title="Internet layer">Internet layer</a> addresses into <a href="https://en.wikipedia.org/wiki/Link_layer" title="Link layer">link layer</a> addresses, a critical function in multiple-access networks. ARP was defined by <a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc826">RFC 826</a> in 1982,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> is <a href="https://en.wikipedia.org/wiki/Internet_Standard" title="Internet Standard">Internet Standard</a> STD 37, and is also the name of the program for manipulating these addresses in most <a href="https://en.wikipedia.org/wiki/Operating_system" title="Operating system">operating systems</a>.</p>
+<p>ARP is used for mapping a network address (e.g. an <a href="https://en.wikipedia.org/wiki/IPv4_address" class="mw-redirect" title="IPv4 address">IPv4 address</a>) to a physical address like an <a href="https://en.wikipedia.org/wiki/Ethernet_address" class="mw-redirect" title="Ethernet address">Ethernet address</a> (also named a <a href="https://en.wikipedia.org/wiki/MAC_address" title="MAC address">MAC address</a>). ARP has been implemented with many combinations of network and data link layer technologies, like <a href="https://en.wikipedia.org/wiki/IPv4" title="IPv4">IPv4</a>, <a href="https://en.wikipedia.org/wiki/Chaosnet" title="Chaosnet">Chaosnet</a>, <a href="https://en.wikipedia.org/wiki/DECnet" title="DECnet">DECnet</a> and Xerox <a href="https://en.wikipedia.org/wiki/PARC_Universal_Packet" title="PARC Universal Packet">PARC Universal Packet</a> (PUP) using <a href="https://en.wikipedia.org/wiki/IEEE_802" title="IEEE 802">IEEE 802</a> standards, <a href="https://en.wikipedia.org/wiki/FDDI" class="mw-redirect" title="FDDI">FDDI</a>, <a href="https://en.wikipedia.org/wiki/X.25" title="X.25">X.25</a>, <a href="https://en.wikipedia.org/wiki/Frame_Relay" title="Frame Relay">Frame Relay</a> and <a href="https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode" title="Asynchronous Transfer Mode">Asynchronous Transfer Mode</a> (ATM). IPv4 over <a href="https://en.wikipedia.org/wiki/IEEE_802.3" title="IEEE 802.3">IEEE 802.3</a> and <a href="https://en.wikipedia.org/wiki/IEEE_802.11" title="IEEE 802.11">IEEE 802.11</a> is the most common case.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/IPv6" title="IPv6">Internet Protocol Version 6</a> (IPv6) networks, the functionality of ARP is provided by the <a href="https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">Neighbor Discovery Protocol</a> (NDP).</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+<span class="toctoggle">&nbsp;[<a href="#" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Operating_scope"><span class="tocnumber">1</span> <span class="toctext">Operating scope</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Packet_structure"><span class="tocnumber">2</span> <span class="toctext">Packet structure</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Example"><span class="tocnumber">3</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#ARP_probe"><span class="tocnumber">4</span> <span class="toctext">ARP probe</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#ARP_announcements"><span class="tocnumber">5</span> <span class="toctext">ARP announcements</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#ARP_mediation"><span class="tocnumber">6</span> <span class="toctext">ARP mediation</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Inverse_ARP_and_Reverse_ARP"><span class="tocnumber">7</span> <span class="toctext">Inverse ARP and Reverse ARP</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#ARP_spoofing_and_Proxy_ARP"><span class="tocnumber">8</span> <span class="toctext">ARP spoofing and Proxy ARP</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Alternatives_to_ARP"><span class="tocnumber">9</span> <span class="toctext">Alternatives to ARP</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#ARP_stuffing"><span class="tocnumber">10</span> <span class="toctext">ARP stuffing</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Standard_documents"><span class="tocnumber">11</span> <span class="toctext">Standard documents</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">12</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">13</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">14</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Operating_scope">Operating scope</span></h2>
+<p>The Address Resolution Protocol is a request and reply protocol that runs encapsulated by the line protocol.<sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">[<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="Does line protocol mean command line? (February 2015)">clarification needed</span></a></i>]</sup>
+ It is communicated within the boundaries of a single network, never 
+routed across internetwork nodes. This property places ARP into the <a href="https://en.wikipedia.org/wiki/Link_Layer" class="mw-redirect" title="Link Layer">Link Layer</a> of the <a href="https://en.wikipedia.org/wiki/Internet_Protocol_Suite" class="mw-redirect" title="Internet Protocol Suite">Internet Protocol Suite</a>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> while in the <a href="https://en.wikipedia.org/wiki/Open_Systems_Interconnection" title="Open Systems Interconnection">Open Systems Interconnection</a>
+ (OSI) model, it is often described as residing in Layer 3, being 
+encapsulated by Layer 2 protocols. However, ARP was not developed in the
+ OSI framework.</p>
+<h2><span class="mw-headline" id="Packet_structure">Packet structure</span></h2>
+<p>The Address Resolution Protocol uses a simple message format 
+containing one address resolution request or response. The size of the 
+ARP message depends on the upper layer and lower layer address sizes, 
+which are given by the type of networking protocol (usually <a href="https://en.wikipedia.org/wiki/IPv4" title="IPv4">IPv4</a>)
+ in use and the type of hardware or virtual link layer that the upper 
+layer protocol is running on. The message header specifies these types, 
+as well as the size of addresses of each. The message header is 
+completed with the operation code for request (1) and reply (2). The 
+payload of the packet consists of four addresses, the hardware and 
+protocol address of the sender and receiver hosts.</p>
+<p>The principal packet structure of ARP packets is shown in the 
+following table which illustrates the case of IPv4 networks running on 
+Ethernet. In this scenario, the packet has 48-bit fields for the sender 
+hardware address (SHA) and target hardware address (THA), and 32-bit 
+fields for the corresponding sender and target protocol addresses (SPA 
+and TPA). Thus, the ARP packet size in this case is 28 bytes. The 
+EtherType for ARP is 0x0806. (This appears in the Ethernet frame header 
+when the payload is an ARP packet. Not to be confused with PTYPE below, 
+which appears within this encapsulated ARP packet.)</p>
+<table class="wikitable" style="float:right; text-align: center; width: 30em;" border="1">
+<tbody><tr>
+<th colspan="17">Internet Protocol (IPv4) over Ethernet ARP packet</th>
+</tr>
+<tr>
+<th colspan="1">octet offset</th>
+<th colspan="8" width="50%">0</th>
+<th colspan="8" width="50%">1</th>
+</tr>
+<tr>
+<th>0</th>
+<td colspan="16">Hardware type (HTYPE)</td>
+</tr>
+<tr>
+<th>2</th>
+<td colspan="16">Protocol type (PTYPE)</td>
+</tr>
+<tr>
+<th>4</th>
+<td colspan="8">Hardware address length (HLEN)</td>
+<td colspan="8">Protocol address length (PLEN)</td>
+</tr>
+<tr>
+<th>6</th>
+<td colspan="16">Operation (OPER)</td>
+</tr>
+<tr>
+<th>8</th>
+<td colspan="16" style="background:#f0fff0">Sender hardware address (SHA) (first 2 bytes)</td>
+</tr>
+<tr>
+<th>10</th>
+<td colspan="16" style="background:#f0fff0">(next 2 bytes)</td>
+</tr>
+<tr>
+<th>12</th>
+<td colspan="16" style="background:#f0fff0">(last 2 bytes)</td>
+</tr>
+<tr>
+<th>14</th>
+<td colspan="16" style="background:#d0ffd0">Sender protocol address (SPA) (first 2 bytes)</td>
+</tr>
+<tr>
+<th>16</th>
+<td colspan="16" style="background:#d0ffd0">(last 2 bytes)</td>
+</tr>
+<tr>
+<th>18</th>
+<td colspan="16" style="background:#f0f0ff">Target hardware address (THA) (first 2 bytes)</td>
+</tr>
+<tr>
+<th>20</th>
+<td colspan="16" style="background:#f0f0ff">(next 2 bytes)</td>
+</tr>
+<tr>
+<th>22</th>
+<td colspan="16" style="background:#f0f0ff">(last 2 bytes)</td>
+</tr>
+<tr>
+<th>24</th>
+<td colspan="16" style="background:#d0d0ff">Target protocol address (TPA) (first 2 bytes)</td>
+</tr>
+<tr>
+<th>26</th>
+<td colspan="16" style="background:#d0d0ff">(last 2 bytes)</td>
+</tr>
+</tbody></table>
+<dl>
+<dt>Hardware type (HTYPE)</dt>
+<dd>This field specifies the network protocol type. Example: Ethernet is 1.</dd>
+<dt>Protocol type (PTYPE)</dt>
+<dd>This field specifies the internetwork protocol for which the ARP 
+request is intended. For IPv4, this has the value 0x0800. The permitted 
+PTYPE values share a numbering space with those for <a href="https://en.wikipedia.org/wiki/EtherType" title="EtherType">EtherType</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></dd>
+<dt>Hardware length (HLEN)</dt>
+<dd>Length (in <a href="https://en.wikipedia.org/wiki/Octet_%28computing%29" title="Octet (computing)">octets</a>) of a hardware address. Ethernet addresses size is 6.</dd>
+<dt>Protocol length (PLEN)</dt>
+<dd>Length (in octets) of addresses used in the upper layer protocol. 
+(The upper layer protocol specified in PTYPE.) IPv4 address size is 4.</dd>
+<dt>Operation&nbsp;</dt>
+<dd>Specifies the operation that the sender is performing: 1 for request, 2 for reply.</dd>
+<dt>Sender hardware address (SHA)</dt>
+<dd>Media address of the sender. In an ARP request this field is used to
+ indicate the address of the host sending the request. In an ARP reply 
+this field is used to indicate the address of the host that the request 
+was looking for. (Not necessarily address of the host replying as in the
+ case of virtual media.) Note that switches do not pay attention to this
+ field, particularly in learning MAC addresses. The ARP <a href="https://en.wikipedia.org/wiki/Protocol_Data_Unit" class="mw-redirect" title="Protocol Data Unit">PDU</a> is encapsulated in <a href="https://en.wikipedia.org/wiki/Ethernet" title="Ethernet">Ethernet</a> frame, and that is what Layer 2 devices examine.</dd>
+<dt>Sender protocol address (SPA)</dt>
+<dd>Internetwork address of the sender.</dd>
+<dt>Target hardware address (THA)</dt>
+<dd>Media address of the intended receiver. In an ARP request this field
+ is ignored. In an ARP reply this field is used to indicate the address 
+of the host that originated the ARP request.</dd>
+<dt>Target protocol address (TPA)</dt>
+<dd>Internetwork address of the intended receiver.</dd>
+</dl>
+<p>ARP protocol parameter values have been standardized and are maintained by the <a href="https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority" title="Internet Assigned Numbers Authority">Internet Assigned Numbers Authority</a> (IANA).<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup></p>
+<h2><span class="mw-headline" id="Example">Example</span></h2>
+<p>For example, picture the computers <i>Matterhorn</i> and <i>Washington</i> in an office, connected to each other on the office <a href="https://en.wikipedia.org/wiki/Local_area_network" title="Local area network">local area network</a> by <a href="https://en.wikipedia.org/wiki/Ethernet" title="Ethernet">Ethernet</a> cables and <a href="https://en.wikipedia.org/wiki/Network_switches" class="mw-redirect" title="Network switches">network switches</a>, with no intervening <a href="https://en.wikipedia.org/wiki/Gateway_%28telecommunications%29" title="Gateway (telecommunications)">gateways</a> or <a href="https://en.wikipedia.org/wiki/Router_%28computing%29" title="Router (computing)">routers</a>. Matterhorn has a packet to send to Washington. Through <a href="https://en.wikipedia.org/wiki/DNS" class="mw-redirect" title="DNS">DNS</a>,
+ it determines that Washington has an IP address of 192.168.0.55. In 
+order to send the message, it also needs to know Washington's <a href="https://en.wikipedia.org/wiki/MAC_address" title="MAC address">MAC address</a>.
+ First, Matterhorn uses a cached ARP table to look up 192.168.0.55 for 
+any existing records of Washington's MAC address (00:eb:24:b2:05:ac). If
+ the MAC address is found, it sends the IP packet encapsulated in a 
+level 2 <a href="https://en.wikipedia.org/wiki/Frame_%28networking%29" title="Frame (networking)">frame</a>
+ on the link layer to address 00:eb:24:b2:05:ac via the local network 
+cabling. If the cache did not produce a result for 192.168.0.55, 
+Matterhorn has to send a broadcast ARP message (destination 
+FF:FF:FF:FF:FF:FF MAC address, which is accepted by all computers) 
+requesting an answer for 192.168.0.55. Washington responds with its MAC 
+address (and its IP). (Washington may insert an entry for Matterhorn 
+into its own ARP table for future use.) Matterhorn caches the response 
+information in its own ARP table and can now send the packet.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></p>
+<h2><span class="mw-headline" id="ARP_probe">ARP probe</span></h2>
+<p>An <b>ARP probe</b> is an ARP request constructed with an all-zero <i>sender IP address</i> (SPA). The term is used in the <i>IPv4 Address Conflict Detection</i> specification (<a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc5227">RFC 5227</a>).
+ Before beginning to use an IPv4 address (whether received from manual 
+configuration, DHCP, or some other means), a host implementing this 
+specification must test to see if the address is already in use, by 
+broadcasting ARP probe packets.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup></p>
+<h2><span class="mw-headline" id="ARP_announcements">ARP announcements</span></h2>
+<p>ARP may also be used as a simple announcement protocol. This is 
+useful for updating other hosts' mappings of a hardware address when the
+ sender's IP address or MAC address has changed. Such an announcement, 
+also called a <i>gratuitous ARP</i> message, is usually broadcast as an 
+ARP request containing the senders protocol address (SPA) in the target 
+field (TPA=SPA), with the target hardware address (THA) set to zero. An 
+alternative way is to broadcast an ARP reply with the sender's hardware 
+and protocol addresses (SHA and SPA) duplicated in the target fields 
+(TPA=SPA, THA=SHA).</p>
+<p>The gratuitous ARP request message and the gratuitous ARP reply messages are standards-based methods,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup> but the "ARP Request" is preferred.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> Some devices may be configured for the use of either of these two types of GARP.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></p>
+<p>An ARP announcement is not intended to solicit a reply; instead it 
+updates any cached entries in the ARP tables of other hosts that receive
+ the packet. The operation code may indicate a request or a reply 
+because the ARP standard specifies that the opcode is only processed 
+after the ARP table has been updated from the address fields.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup></p>
+<p>Many operating systems perform gratuitous ARP during startup. That 
+helps to resolve problems which would otherwise occur if, for example, a
+ <a href="https://en.wikipedia.org/wiki/Network_interface_controller" title="Network interface controller">network card</a>
+ was recently changed (changing the IP-address-to-MAC-address mapping) 
+and other hosts still have the old mapping in their ARP caches.</p>
+<p>Gratuitous ARP is also used by some interface drivers to provide load
+ balancing for incoming traffic. In a team of network cards, it is used 
+to announce a different MAC address within the team that should receive 
+incoming packets.</p>
+<p>ARP announcements can be used to defend <a href="https://en.wikipedia.org/wiki/Link-local_address" title="Link-local address">link-local IP addresses</a> in the <a href="https://en.wikipedia.org/wiki/Zeroconf" class="mw-redirect" title="Zeroconf">Zeroconf</a> protocol (<a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc3927">RFC 3927</a>), and for IP address takeover within <a href="https://en.wikipedia.org/wiki/High-availability_cluster" title="High-availability cluster">high-availability clusters</a>.</p>
+<h2><span class="mw-headline" id="ARP_mediation">ARP mediation</span></h2>
+<p><b>ARP mediation</b> refers to the process of resolving Layer 2 addresses through a <a href="https://en.wikipedia.org/wiki/Virtual_private_network#Virtual_private_wire_and_private_line_services_.28VPWS_and_VPLS.29" title="Virtual private network">Virtual Private Wire Service</a> (VPWS) when different resolution protocols are used on the connected circuits, e.g., <a href="https://en.wikipedia.org/wiki/Ethernet" title="Ethernet">Ethernet</a> on one end and <a href="https://en.wikipedia.org/wiki/Frame_Relay" title="Frame Relay">Frame Relay</a> on the other. In <a href="https://en.wikipedia.org/wiki/IPv4" title="IPv4">IPv4</a>, each <a href="https://en.wikipedia.org/wiki/Provider_Edge" title="Provider Edge">Provider Edge</a> (PE) device discovers the IP address of the locally attached <a href="https://en.wikipedia.org/wiki/Customer_edge" title="Customer edge">Customer Edge</a>
+ (CE) device and distributes that IP address to the corresponding remote
+ PE device. Then each PE device responds to local ARP requests using the
+ IP address of the remote CE device and the hardware address of the 
+local PE device. In <a href="https://en.wikipedia.org/wiki/IPv6" title="IPv6">IPv6</a>, each PE device discovers the IP address of both local and remote CE devices and then intercepts local <a href="https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">Neighbor Discovery</a> (ND) and Inverse Neighbor Discovery (IND) packets and forwards them to the remote PE device.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup></p>
+<h2><span class="mw-headline" id="Inverse_ARP_and_Reverse_ARP">Inverse ARP and Reverse ARP</span></h2>
+<p><b>Inverse Address Resolution Protocol</b> (Inverse ARP or InARP) is used to obtain <a href="https://en.wikipedia.org/wiki/Network_Layer" class="mw-redirect" title="Network Layer">Network Layer</a> addresses (for example, <a href="https://en.wikipedia.org/wiki/IP_address" title="IP address">IP addresses</a>) of other nodes from <a href="https://en.wikipedia.org/wiki/Data_Link_Layer" class="mw-redirect" title="Data Link Layer">Data Link Layer</a> (Layer 2) addresses. It is primarily used in <a href="https://en.wikipedia.org/wiki/Frame_Relay" title="Frame Relay">Frame Relay</a> (<a href="https://en.wikipedia.org/wiki/DLCI" class="mw-redirect" title="DLCI">DLCI</a>) and ATM networks, in which Layer 2 addresses of <a href="https://en.wikipedia.org/wiki/Virtual_circuit" title="Virtual circuit">virtual circuits</a>
+ are sometimes obtained from Layer 2 signaling, and the corresponding 
+Layer 3 addresses must be available before those virtual circuits can be
+ used.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup></p>
+<p>Since ARP translates Layer 3 addresses to Layer 2 addresses, InARP 
+may be described as its inverse. In addition, InARP is implemented as a 
+protocol extension to ARP: it uses the same packet format as ARP, but 
+different operation codes.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Reverse_Address_Resolution_Protocol" title="Reverse Address Resolution Protocol">Reverse Address Resolution Protocol</a>
+ (Reverse ARP or RARP), like InARP, translates Layer 2 addresses to 
+Layer 3 addresses. However, in InARP the requesting station queries the 
+Layer 3 address of another node, whereas RARP is used to obtain the 
+Layer 3 address of the requesting station itself for address 
+configuration purposes. RARP is obsolete; it was replaced by <a href="https://en.wikipedia.org/wiki/BOOTP" class="mw-redirect" title="BOOTP">BOOTP</a>, which was later superseded by the <a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" title="Dynamic Host Configuration Protocol">Dynamic Host Configuration Protocol</a> (DHCP).<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup></p>
+<h2><span class="mw-headline" id="ARP_spoofing_and_Proxy_ARP">ARP spoofing and Proxy ARP</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="https://en.wikipedia.org/wiki/File:ARP_Spoofing.svg" class="image"><img alt="" src="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/200px-ARP_Spoofing.png" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/ARP_Spoofing.svg/300px-ARP_Spoofing.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/33/ARP_Spoofing.svg/400px-ARP_Spoofing.svg.png 2x" data-file-width="466" data-file-height="356" height="153" width="200"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:ARP_Spoofing.svg" class="internal" title="Enlarge"></a></div>
+A successful <a href="https://en.wikipedia.org/wiki/ARP_spoofing" title="ARP spoofing">ARP spoofing</a> attack allows an attacker to perform a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" title="Man-in-the-middle attack">man-in-the-middle attack</a>.</div>
+</div>
+</div>
+<div role="note" class="hatnote">Main article: <a href="https://en.wikipedia.org/wiki/ARP_spoofing" title="ARP spoofing">ARP spoofing</a></div>
+<div role="note" class="hatnote">Main article: <a href="https://en.wikipedia.org/wiki/Proxy_ARP" title="Proxy ARP">Proxy ARP</a></div>
+<p>Because ARP does not provide methods for authenticating ARP replies 
+on a network, ARP replies can come from systems other than the one with 
+the required Layer 2 address. An ARP <i>proxy</i> is a system which 
+answers the ARP request on behalf of another system for which it will 
+forward traffic, normally as a part of the network's design, such as for
+ a dialup internet service. By contrast, in ARP <i>spoofing</i> the answering system, or <i>spoofer</i>,
+ replies to a request for another system's address with the aim of 
+intercepting data bound for that system. A malicious user may use ARP 
+spoofing to perform a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle" class="mw-redirect" title="Man-in-the-middle">man-in-the-middle</a> or <a href="https://en.wikipedia.org/wiki/Denial-of-service" class="mw-redirect" title="Denial-of-service">denial-of-service</a>
+ attack on other users on the network. Various software exists to both 
+detect and perform ARP spoofing attacks, though ARP itself does not 
+provide any methods of protection from such attacks.<sup id="cite_ref-grc_19-0" class="reference"><a href="#cite_note-grc-19">[19]</a></sup></p>
+<h2><span class="mw-headline" id="Alternatives_to_ARP">Alternatives to ARP</span></h2>
+<p>Each computer maintains its own table of the mapping from <a href="https://en.wikipedia.org/wiki/Layer_3" class="mw-redirect" title="Layer 3">Layer 3</a> addresses (e.g. <a href="https://en.wikipedia.org/wiki/IP_addresses" class="mw-redirect" title="IP addresses">IP addresses</a>) to <a href="https://en.wikipedia.org/wiki/Layer_2" class="mw-redirect" title="Layer 2">Layer 2</a> addresses (e.g. <a href="https://en.wikipedia.org/wiki/Ethernet" title="Ethernet">ethernet</a> <a href="https://en.wikipedia.org/wiki/MAC_addresses" class="mw-redirect" title="MAC addresses">MAC addresses</a>).
+ In a modern computer this is maintained almost entirely by ARP packets 
+on the local network and is thus often called the 'ARP cache' as opposed
+ to 'Layer 2 address table'. In older computers, where broadcast packets
+ were considered an expensive resource, other methods were used to 
+maintain this table, such as static configuration files,<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup> or centrally maintained lists.</p>
+<p>Since at least the 1980s,<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup>
+ networked computers have had a command called 'arp' for interrogating 
+or manipulating this table, and practically all modern personal 
+computers have a variant of this.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup><sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup><sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup></p>
+<h2><span class="mw-headline" id="ARP_stuffing">ARP stuffing</span></h2>
+<p>Embedded systems such as networked cameras<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup> and networked power distribution devices,<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup> which lack a user interface, can use so-called <i>ARP stuffing</i>
+ to make an initial network connection, although this is a misnomer, as 
+ARP is not involved. This is a solution to an issue in network 
+management of consumer devices, specifically the allocation of IP 
+addresses of ethernet devices where 1) the user doesn't have the ability
+ to control <a href="https://en.wikipedia.org/wiki/DHCP" class="mw-redirect" title="DHCP">DHCP</a>
+ or similar address allocation protocols, 2) the device doesn't have a 
+user interface to configure it with, and 3) the user's computer can't 
+communicate with it because it has no suitable IP address.</p>
+<p>The solution adopted is as follows: the user's computer has an IP address <i>stuffed</i> manually into its address table (normally with the <i>arp</i> command with the MAC address taken from a label on the device) and then sends special packets to the device, typically a <a href="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29" title="Ping (networking utility)">ping</a> packet with a non-default size. The device then adopts this IP address, and the user then communicates with it by <a href="https://en.wikipedia.org/wiki/Telnet" title="Telnet">telnet</a> or <a href="https://en.wikipedia.org/wiki/Http" class="mw-redirect" title="Http">web</a>
+ protocols to complete the configuration. Such devices typically have a 
+method to disable this process once the device is operating normally, as
+ it is vulnerable to attack.</p>
+<h2><span class="mw-headline" id="Standard_documents">Standard documents</span></h2>
+<ul>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc826">RFC 826</a> - Ethernet Address Resolution Protocol, Internet Standard STD 37.</li>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc903">RFC 903</a> - Reverse Address Resolution Protocol, Internet Standard STD 38.</li>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc2390">RFC 2390</a> - Inverse Address Resolution Protocol, draft standard</li>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc5227">RFC 5227</a> - IPv4 Address Conflict Detection, proposed standard</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ARP_spoofing" title="ARP spoofing">ARP spoofing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arping" title="Arping">Arping</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arptables" title="Arptables">Arptables</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arpwatch" title="Arpwatch">Arpwatch</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bonjour_Sleep_Proxy" title="Bonjour Sleep Proxy">Bonjour Sleep Proxy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cisco_HDLC" title="Cisco HDLC">Cisco HDLC</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">Neighbor Discovery Protocol</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proxy_ARP" title="Proxy ARP">Proxy ARP</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">David C. Plummer (November 1982). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc826">"RFC
+ 826, An Ethernet Address Resolution Protocol -- or -- Converting 
+Network Protocol Addresses to 48.bit Ethernet Address for Transmission 
+on Ethernet Hardware"</a>. Internet Engineering Task Force, Network Working Group.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=David+C.+Plummer&amp;rft.btitle=RFC+826%2C+An+Ethernet+Address+Resolution+Protocol+--+or+--+Converting+Network+Protocol+Addresses+to+48.bit+Ethernet+Address+for+Transmission+on+Ethernet+Hardware&amp;rft.date=1982-11&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc826&amp;rft.pub=Internet+Engineering+Task+Force%2C+Network+Working+Group&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Braden, R. (October 1989). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc1122">"RFC 1122 - Requirements for Internet Hosts -- Communication Layers"</a>. Internet Engineering Task Force.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Braden%2C+R.&amp;rft.btitle=RFC+1122+-+Requirements+for+Internet+Hosts+--+Communication+Layers&amp;rft.date=1989-10&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc1122&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA ARP - "Protocol Type"</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.iana.org/assignments/ethernet-numbers">IANA - Ethertype values</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc5342">RFC 5342</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.iana.org/assignments/arp-parameters/">"IANA ARP parameter assignments"</a>. <a href="https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority" title="Internet Assigned Numbers Authority">IANA</a>. 2009-04-24.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.btitle=IANA+ARP+parameter+assignments&amp;rft.date=2009-04-24&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.iana.org%2Fassignments%2Farp-parameters%2F&amp;rft.pub=IANA&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">Chappell, Laura A. and Tittel, Ed. <i>Guide to TCP/IP, Third Edition</i>. Thomson Course Technology, 2007, pp. 115-116.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Cheshire, S. (July 2008). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc5227">"RFC 5227 - IPv4 Address Conflict Detection"</a>. Internet Engineering Task Force.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Cheshire%2C+S.&amp;rft.btitle=RFC+5227+-+IPv4+Address+Conflict+Detection&amp;rft.date=2008-07&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc5227&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Perkins, C. (November 2010). <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc5944#section-4.6">"RFC 5944 - IP Mobility Support for IPv4, Revised"</a>. Internet Engineering Task Force. <q>A
+ gratuitous ARP MAY use either an ARP Request or an ARP Reply packet. 
+[...] any node receiving any ARP packet (Request or Reply) MUST update 
+its local ARP cache with the Sender Protocol and Hardware Addresses in 
+the ARP packet [...]</q></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Perkins%2C+C.&amp;rft.btitle=RFC+5944+-+IP+Mobility+Support+for+IPv4%2C+Revised&amp;rft.date=2010-11&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc5944%23section-4.6&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Perkins, C. (October 1996). <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc2002#section-4.6">"RFC 2002 - IP Mobility Support"</a>. Internet Engineering Task Force.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Perkins%2C+C.&amp;rft.btitle=RFC+2002+-+IP+Mobility+Support&amp;rft.date=1996-10&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2002%23section-4.6&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Cheshire, S. (July 2008). <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc5227#section-3">"RFC 5227 - IPv4 Address Conflict Detection"</a>. Internet Engineering Task Force. <q>Why Are ARP Announcements Performed Using ARP Request Packets and Not ARP Reply Packets?</q></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Cheshire%2C+S.&amp;rft.btitle=RFC+5227+-+IPv4+Address+Conflict+Detection&amp;rft.date=2008-07&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc5227%23section-3&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://support.citrix.com/article/CTX112701">"FAQ: The Firewall Does not Update the Address Resolution Protocol Table"</a>. <a href="https://en.wikipedia.org/wiki/Citrix" class="mw-redirect" title="Citrix">Citrix</a>. 2015-01-16. <q>[...] garpReply enabled [...] generates ARP packets that [...] are of OPCODE type REPLY, rather than REQUEST.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.btitle=FAQ%3A+The+Firewall+Does+not+Update+the+Address+Resolution+Protocol+Table&amp;rft.date=2015-01-16&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fsupport.citrix.com%2Farticle%2FCTX112701&amp;rft.pub=Citrix&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www1.ietf.org/mail-archive/web/dhcwg/current/msg03797.html">Gratuitous ARP in DHCP vs. IPv4 ACD Draft</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2002#section-4.6">RFC 2002 Section 4.6</a></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2131#section-4.4.1">RFC 2131 DHCP – Last lines of Section 4.4.1</a></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Shah, H.; et al. (June 2012). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc6575">"RFC 6575 Address Resolution Protocol (ARP) Mediation for IP Interworking of Layer 2 VPNs"</a>. Internet Engineering Task Force.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Shah%2C+H.&amp;rft.btitle=RFC+6575+Address+Resolution+Protocol+%28ARP%29+Mediation+for+IP+Interworking+of+Layer+2+VPNs&amp;rft.date=2012-06&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc6575&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">T. Bradley; et al. (September 1998). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2390">"RFC 2390 - Inverse Address Resolution Protocol"</a>. Internet Engineering Task Force.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=T.+Bradley&amp;rft.btitle=RFC+2390+-+Inverse+Address+Resolution+Protocol&amp;rft.date=1998-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2390&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Finlayson, Mann, Mogul, Theimer (June 1984). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc903">"RFC 903 - A Reverse Address Resolution Protocol"</a>. Internet Engineering Task Force.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.btitle=RFC+903+-+A+Reverse+Address+Resolution+Protocol&amp;rft.date=1984-06&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc903&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-grc-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-grc_19-0"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Steve Gibson (2005-12-11). <a rel="nofollow" class="external text" href="http://www.grc.com/nat/arp.htm">"ARP Cache Poisoning"</a>. <a href="https://en.wikipedia.org/wiki/Gibson_Research_Corporation" class="mw-redirect" title="Gibson Research Corporation">GRC</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Steve+Gibson&amp;rft.btitle=ARP+Cache+Poisoning&amp;rft.date=2005-12-11&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.grc.com%2Fnat%2Farp.htm&amp;rft.pub=GRC&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Sun Microsystems. <a rel="nofollow" class="external text" href="http://www.freebsd.org/cgi/man.cgi?query=ethers&amp;sektion=5&amp;apropos=0&amp;manpath=SunOS+4.1.3">"SunOS manual page for ethers(5) file"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Sun+Microsystems&amp;rft.btitle=SunOS+manual+page+for+ethers%285%29+file&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.freebsd.org%2Fcgi%2Fman.cgi%3Fquery%3Dethers%26sektion%3D5%26apropos%3D0%26manpath%3DSunOS%2B4.1.3&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">University of California, Berkeley. <a rel="nofollow" class="external text" href="http://www.freebsd.org/cgi/man.cgi?query=arp&amp;apropos=0&amp;sektion=0&amp;manpath=2.10+BSD&amp;arch=default&amp;format=html">"BSD manual page for arp(8C) command"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=University+of+California%2C+Berkeley&amp;rft.btitle=BSD+manual+page+for+arp%288C%29+command&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.freebsd.org%2Fcgi%2Fman.cgi%3Fquery%3Darp%26apropos%3D0%26sektion%3D0%26manpath%3D2.10%2BBSD%26arch%3Ddefault%26format%3Dhtml&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Canonical. <a rel="nofollow" class="external text" href="http://manpages.ubuntu.com/manpages/lucid/man8/arp.8.html">"Ubuntu manual page for arp(8) command"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Canonical&amp;rft.btitle=Ubuntu+manual+page+for+arp%288%29+command&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fmanpages.ubuntu.com%2Fmanpages%2Flucid%2Fman8%2Farp.8.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Apple Computer. <a rel="nofollow" class="external text" href="http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man8/arp.8.html">"Mac OS X manual page for arp(8) command"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Apple+Computer&amp;rft.btitle=Mac+OS+X+manual+page+for+arp%288%29+command&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdeveloper.apple.com%2Flibrary%2Fmac%2F%23documentation%2FDarwin%2FReference%2FManPages%2Fman8%2Farp.8.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Microsoft. <a rel="nofollow" class="external text" href="http://technet.microsoft.com/en-us/library/cc786759%28WS.10%29.aspx">"Windows help for arp command"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Microsoft&amp;rft.btitle=Windows+help+for+arp+command&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechnet.microsoft.com%2Fen-us%2Flibrary%2Fcc786759%2528WS.10%2529.aspx&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Axis Communication. <a rel="nofollow" class="external text" href="http://www.axis.com/files/manuals/ig_p13Series_38731_en_1006.pdf">"Axis P13 Network Camera Series Installation Guide"</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=Axis+Communication&amp;rft.btitle=Axis+P13+Network+Camera+Series+Installation+Guide&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.axis.com%2Ffiles%2Fmanuals%2Fig_p13Series_38731_en_1006.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">American Power Corporation. <a rel="nofollow" class="external text" href="http://www.apcmedia.com/salestools/ASTE-6Z6K56_R0_EN.pdf">"Switched Rack Power Distribution Unit Installation and Quick Start Manual"</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-09-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAddress+Resolution+Protocol&amp;rft.au=American+Power+Corporation&amp;rft.btitle=Switched+Rack+Power+Distribution+Unit+Installation+and+Quick+Start+Manual&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.apcmedia.com%2Fsalestools%2FASTE-6Z6K56_R0_EN.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+</ol>
+</div>
+<p><span class="citation foldoc">This article is based on material taken from the <a href="https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a> prior to 1 November 2008 and incorporated under the "relicensing" terms of the <a href="https://en.wikipedia.org/wiki/GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a>, version 1.3 or later.</span></p>
+<h2><span class="mw-headline" id="External_links">External links</span></h2>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tbody><tr>
+<td class="mbox-image"><a href="https://en.wikipedia.org/wiki/File:Wikiversity-logo.svg" class="image"><img alt="" src="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/40px-Wikiversity-logo.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/60px-Wikiversity-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/80px-Wikiversity-logo.svg.png 2x" data-file-width="1000" data-file-height="800" height="32" width="40"></a></td>
+<td class="mbox-text plainlist">Wikiversity has learning materials about <i><b><a href="https://en.wikiversity.org/wiki/Address_Resolution_Protocol" class="extiw" title="v:Address Resolution Protocol">Address Resolution Protocol</a></b></i></td>
+</tr>
+</tbody></table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://arpon.sourceforge.net/">ArpON home page</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.eventhelix.com/RealtimeMantra/Networking/Arp.pdf">ARP Sequence Diagram (pdf)</a></li>
+<li><a rel="nofollow" class="external text" href="http://wiki.wireshark.org/Gratuitous_ARP">Gratuitous ARP</a></li>
+<li><a rel="nofollow" class="external text" href="http://sid.rstack.org/arp-sk/">ARP-SK ARP traffic generation tools</a></li>
+<li><a rel="nofollow" class="external text" href="http://wiki.wireshark.org/SampleCaptures#head-2fb4a82886c1d8c722134b44461e22e5f7f54b32">Sample Capture file from WireSharkWiki</a></li>
+</ul>
+<div role="navigation" class="navbox" aria-labelledby="Windows_command-line_programs_and_shell_builtins" style="padding:3px">
+<table id="collapsibleTable0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tbody><tr>
+<th scope="col" class="navbox-title" colspan="2"><span class="collapseButton">[<a href="#" id="collapseButton0">hide</a>]</span>
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:Windows_commands" title="Template:Windows commands"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:Windows_commands" title="Template talk:Windows commands"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Windows_commands&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Windows_command-line_programs_and_shell_builtins" style="font-size:114%"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a> <a href="https://en.wikipedia.org/wiki/Command-line_interface" title="Command-line interface">command-line</a> programs and <a href="https://en.wikipedia.org/wiki/Shell_builtin" title="Shell builtin">shell builtins</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/COMMAND.COM" title="COMMAND.COM">COMMAND.COM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Command_Prompt" class="mw-redirect" title="Command Prompt">Command Prompt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_PowerShell" title="Windows PowerShell">Windows PowerShell</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Recovery_Console" title="Recovery Console">Recovery Console</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">File system navigation</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cd_%28command%29" title="Cd (command)">cd</a> (chdir)</li>
+<li><a href="https://en.wikipedia.org/wiki/Dir_%28command%29" title="Dir (command)">dir</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pushd_and_popd" title="Pushd and popd">popd</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pushd_and_popd" title="Pushd and popd">pushd</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tree_%28command%29" class="mw-redirect" title="Tree (command)">tree</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">File management</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ATTRIB" title="ATTRIB">attrib</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cacls" title="Cacls">cacls</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Encrypting_File_System" title="Encrypting File System">cipher</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Compact_%28computing%29" class="mw-redirect" title="Compact (computing)">compact</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Copy_%28command%29" title="Copy (command)">copy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Del_%28command%29" title="Del (command)">del</a> (erase)</li>
+<li><a href="https://en.wikipedia.org/wiki/Deltree" class="mw-redirect" title="Deltree">deltree</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cabinet_%28file_format%29" title="Cabinet (file format)">expand</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cacls#icacls" title="Cacls">icacls</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cabinet_%28file_format%29" title="Cabinet (file format)">makecab</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mkdir" title="Mkdir">md</a> (mkdir)</li>
+<li><a href="https://en.wikipedia.org/wiki/Move_%28command%29" title="Move (command)">move</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rmdir" title="Rmdir">rd</a> (rmdir)</li>
+<li><a href="https://en.wikipedia.org/wiki/Recover_%28command%29" title="Recover (command)">recover</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ren_%28command%29" title="Ren (command)">ren</a> (rename)</li>
+<li><a href="https://en.wikipedia.org/wiki/Replace_%28command%29" title="Replace (command)">replace</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rmdir" title="Rmdir">rmdir</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Robocopy" title="Robocopy">robocopy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/XCOPY" title="XCOPY">xcopy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Disk management</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/CHKDSK" title="CHKDSK">chkdsk</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Convert_%28command%29" title="Convert (command)">convert</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Disk_Defragmenter_%28Windows%29" title="Disk Defragmenter (Windows)">defrag</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Diskcomp" title="Diskcomp">diskcomp</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Diskcopy" title="Diskcopy">diskcopy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Diskpart" title="Diskpart">diskpart</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fdisk" title="Fdisk">fdisk</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Format_%28command%29" title="Format (command)">format</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Label_%28command%29" title="Label (command)">label</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SUBST" title="SUBST">subst</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_ScanDisk" title="Microsoft ScanDisk">scandisk</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SYS_%28command%29" title="SYS (command)">sys</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vol_%28command%29" title="Vol (command)">vol</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shadow_Copy" title="Shadow Copy">vssadmin</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Processes</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Exit_%28command%29" title="Exit (command)">exit</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kill_%28command%29" title="Kill (command)">kill</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Powercfg" title="Powercfg">powercfg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Runas" title="Runas">runas</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_service" title="Windows service">sc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shutdown_%28computing%29" title="Shutdown (computing)">shutdown</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Start_%28command%29" title="Start (command)">start</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Taskkill" class="mw-redirect" title="Taskkill">taskkill</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tasklist" title="Tasklist">tasklist</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Registry</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/File_association" title="File association">assoc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ftype" title="Ftype">ftype</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Registry#Command_line_editing" title="Windows Registry">reg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Registry#Command_line_editing" title="Windows Registry">regini</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Regsvr32" title="Regsvr32">regsvr32</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">User environment</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/DATE_%28command%29" class="mw-redirect" title="DATE (command)">date</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mode_%28command%29" class="mw-redirect" title="Mode (command)">mode</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PATH_%28variable%29" title="PATH (variable)">path</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Environment_variable#DOS.2C_OS.2F2_and_Windows_.28Command_Prompt.29" title="Environment variable">set</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Environment_variable#DOS.2C_OS.2F2_and_Windows_.28Command_Prompt.29" title="Environment variable">setx</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TIME_%28command%29" title="TIME (command)">time</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Title_%28command%29" title="Title (command)">title</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ver_%28command%29" title="Ver (command)">ver</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Whoami" title="Whoami">whoami</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">File contents</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Comp_%28command%29" title="Comp (command)">comp</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MS-DOS_Editor" title="MS-DOS Editor">edit</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Edlin" title="Edlin">edlin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_File_Compare" title="Microsoft File Compare">fc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Find_%28command%29" title="Find (command)">find</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Findstr_%28computing%29" class="mw-redirect" title="Findstr (computing)">findstr</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PRINT_%28command%29" title="PRINT (command)">print</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TYPE_%28DOS_command%29" title="TYPE (DOS command)">type</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="https://en.wikipedia.org/wiki/Scripting_language" title="Scripting language">Scripting</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Choice_%28command%29" title="Choice (command)">choice</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Clipboard_%28computing%29" title="Clipboard (computing)">clip</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Script_Host" title="Windows Script Host">cscript</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DOSKEY" title="DOSKEY">doskey</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Echo_%28command%29" title="Echo (command)">echo</a></li>
+<li><a href="https://en.wikipedia.org/wiki/For_loop" title="For loop">for</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Goto" title="Goto">goto</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conditional_%28programming%29" class="mw-redirect" title="Conditional (programming)">if</a></li>
+<li><a href="https://en.wikipedia.org/wiki/More_%28command%29" title="More (command)">more</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pause_%28DOS_command%29" class="mw-redirect" title="Pause (DOS command)">pause</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt" title="Command-line interface">prompt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Comment_%28computer_programming%29" title="Comment (computer programming)">rem</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Networking</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">arp</strong></li>
+<li><a href="https://en.wikipedia.org/wiki/MAC_address" title="MAC address">getmac</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hostname" title="Hostname">hostname</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ipconfig" title="Ipconfig">ipconfig</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Net_use" title="Net use">net use</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Netsh" title="Netsh">netsh</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Netstat" title="Netstat">netstat</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nslookup" title="Nslookup">nslookup</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PathPing" title="PathPing">PathPing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29" title="Ping (networking utility)">ping</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Route_%28command%29" title="Route (command)">route</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Traceroute" title="Traceroute">tracert</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Maintenance and care</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/w/index.php?title=Driverquery&amp;action=edit&amp;redlink=1" class="new" title="Driverquery (page does not exist)">driverquery</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Installer" title="Windows Installer">msiexec</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NTBackup" title="NTBackup">ntbackup</a></li>
+<li><a href="https://en.wikipedia.org/wiki/System_File_Checker" title="System File Checker">sfc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Systeminfo" class="mw-redirect" title="Systeminfo">systeminfo</a></li>
+<li><a href="https://en.wikipedia.org/wiki/W32tm" title="W32tm">w32tm</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WBAdmin" title="WBAdmin">WBAdmin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_System_Assessment_Tool" title="Windows System Assessment Tool">winsat</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Management_Instrumentation_Command-line" class="mw-redirect" title="Windows Management Instrumentation Command-line">wmic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Boot management</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bcdedit" class="mw-redirect" title="Bcdedit">bcdedit</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bootcfg" title="Bootcfg">bootcfg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fixboot" class="mw-redirect" title="Fixboot">fixboot</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fixmbr" class="mw-redirect" title="Fixmbr">fixmbr</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="https://en.wikipedia.org/wiki/Software_development" title="Software development">Software development</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Debug_%28command%29" title="Debug (command)">debug</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Exe2bin" title="Exe2bin">exe2bin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/QBasic" title="QBasic">QBasic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Miscellaneous</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cls_%28command%29" class="mw-redirect" title="Cls (command)">cls</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Help_%28command%29" title="Help (command)">help</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/List_of_DOS_commands" title="List of DOS commands">List of DOS commands</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Environment_variable" title="Environment variable">Environment variables</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1219
+Cached time: 20160717025005
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.297 seconds
+Real time usage: 0.395 seconds
+Preprocessor visited node count: 1414/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 61140/2097152 bytes
+Template argument size: 675/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 1/500
+Lua time usage: 0.129/10.000 seconds
+Lua memory usage: 4.38 MB/50 MB
+Number of Wikibase entities loaded: 0-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  311.651      1 - -total
+ 47.05%  146.622      1 - Template:Reflist
+ 37.04%  115.436     19 - Template:Cite_web
+ 19.93%   62.105      1 - Template:Clarify
+ 17.98%   56.029      1 - Template:Fix-span
+ 12.28%   38.265      2 - Template:Category_handler
+  9.56%   29.796      1 - Template:IPstack
+  6.43%   20.032      1 - Template:Windows_commands
+  4.94%   15.401      2 - Template:Main
+  4.83%   15.061      1 - Template:Navbox
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:47986-0!*!0!!en!4!* and timestamp 20160717025005 and revision id 727674787
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;oldid=727674787">https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;oldid=727674787</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Windows_commands" title="Category:Windows commands">Windows commands</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Internet_Standards" title="Category:Internet Standards">Internet Standards</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Link_protocols" title="Category:Link protocols">Link protocols</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_February_2015" title="Category:Wikipedia articles needing clarification from February 2015">Wikipedia articles needing clarification from February 2015</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [Alt+Umschalt+n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [Alt+Umschalt+y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Address+Resolution+Protocol&amp;returntoquery=printable%3Dyes" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Address+Resolution+Protocol&amp;returntoquery=printable%3Dyes" title="You're encouraged to log in; however, it's not mandatory. [Alt+Umschalt+o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol" title="View the content page [Alt+Umschalt+c]" accesskey="c">Article</a></span></li>
+															<li id="ca-talk"><span><a href="https://en.wikipedia.org/wiki/Talk:Address_Resolution_Protocol" title="Discussion about the content page [Alt+Umschalt+t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 tabindex="0" id="p-variants-label">
+							<span>Variants</span><a tabindex="-1" href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol">Read</a></span></li>
+															<li id="ca-edit"><span><a href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;action=edit" title="Edit this page [Alt+Umschalt+e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;action=history" title="Past revisions of this page [Alt+Umschalt+h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 tabindex="0" id="p-cactions-label"><span>More</span><a tabindex="-1" href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input autocomplete="off" tabindex="1" name="search" placeholder="Search" title="Search Wikipedia [Alt+Umschalt+f]" accesskey="f" id="searchInput" type="search"><input value="Special:Search" name="title" type="hidden"><input name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" type="submit">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="https://en.wikipedia.org/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="https://en.wikipedia.org/wiki/Main_Page" title="Visit the main page [Alt+Umschalt+z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="https://en.wikipedia.org/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="https://en.wikipedia.org/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="https://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="https://en.wikipedia.org/wiki/Special:Random" title="Load a random article [Alt+Umschalt+x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="https://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="https://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="https://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [Alt+Umschalt+r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/Address_Resolution_Protocol" title="List of all English Wikipedia pages containing links to this page [Alt+Umschalt+j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Address_Resolution_Protocol" title="Recent changes in pages linked from this page [Alt+Umschalt+k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [Alt+Umschalt+u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="https://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [Alt+Umschalt+q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;oldid=727674787" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q15171" title="Link to connected data repository item [Alt+Umschalt+g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Address_Resolution_Protocol&amp;id=727674787" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="https://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Address+Resolution+Protocol">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="https://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Address+Resolution+Protocol&amp;returnto=Address+Resolution+Protocol&amp;oldid=727674787&amp;writer=rdf2latex">Download as PDF</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+
+			<div class="body">
+									<ul>
+						<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Address_Resolution_Protocol" hreflang="en">Wikimedia Commons</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"><span aria-haspopup="true" role="button" tabindex="0" title="Language settings" class="uls-settings-trigger"></span>
+			<h3 id="p-lang-label">Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%88%D8%AA%D9%88%D9%83%D9%88%D9%84_%D8%AA%D8%AD%D9%84%D9%8A%D9%84_%D8%A7%D9%84%D8%B9%D9%86%D9%88%D8%A7%D9%86" title="بروتوكول تحليل العنوان – Arabic" hreflang="ar" lang="ar">العربية</a></li><li class="interlanguage-link interwiki-an"><a href="https://an.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Aragonese" hreflang="an" lang="an">Aragonés</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Bulgarian" hreflang="bg" lang="bg">Български</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Bosnian" hreflang="bs" lang="bs">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Catalan" hreflang="ca" lang="ca">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Czech" hreflang="cs" lang="cs">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Address_resolution_protocol" title="Address resolution protocol – Danish" hreflang="da" lang="da">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – German" hreflang="de" lang="de">Deutsch</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Aadressiteisenduse_protokoll" title="Aadressiteisenduse protokoll – Estonian" hreflang="et" lang="et">Eesti</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Greek" hreflang="el" lang="el">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones" title="Protocolo de resolución de direcciones – Spanish" hreflang="es" lang="es">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/ARP" title="ARP – Basque" hreflang="eu" lang="eu">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84_%D8%AA%D9%81%DA%A9%DB%8C%DA%A9_%D8%A2%D8%AF%D8%B1%D8%B3" title="پروتکل تفکیک آدرس – Persian" hreflang="fa" lang="fa">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – French" hreflang="fr" lang="fr">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Galician" hreflang="gl" lang="gl">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%A3%BC%EC%86%8C_%EA%B2%B0%EC%A0%95_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C" title="주소 결정 프로토콜 – Korean" hreflang="ko" lang="ko">한국어</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/ARP" title="ARP – Croatian" hreflang="hr" lang="hr">Hrvatski</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Protokol_Resolusi_Alamat" title="Protokol Resolusi Alamat – Indonesian" hreflang="id" lang="id">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Italian" hreflang="it" lang="it">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Hebrew" hreflang="he" lang="he">עברית</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/ARP" title="ARP – Latvian" hreflang="lv" lang="lv">Latviešu</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/ARP" title="ARP – Hungarian" hreflang="hu" lang="hu">Magyar</a></li><li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Mongolian" hreflang="mn" lang="mn">Монгол</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Dutch" hreflang="nl" lang="nl">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Japanese" hreflang="ja" lang="ja">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Norwegian" hreflang="no" lang="no">Norsk bokmål</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Norwegian Nynorsk" hreflang="nn" lang="nn">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-oc"><a href="https://oc.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Occitan" hreflang="oc" lang="oc">Occitan</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Polish" hreflang="pl" lang="pl">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Portuguese" hreflang="pt" lang="pt">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/ARP" title="ARP – Russian" hreflang="ru" lang="ru">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Simple English" hreflang="simple" lang="simple">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Protokol_rozli%C5%A1ovania_adries" title="Protokol rozlišovania adries – Slovak" hreflang="sk" lang="sk">Slovenčina</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/ARP" title="ARP – Serbian" hreflang="sr" lang="sr">Српски / srpski</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/ARP_%28protokolla%29" title="ARP (protokolla) – Finnish" hreflang="fi" lang="fi">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Swedish" hreflang="sv" lang="sv">Svenska</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Adres_%C3%87%C3%B6z%C3%BCmleme_Protokol%C3%BC" title="Adres Çözümleme Protokolü – Turkish" hreflang="tr" lang="tr">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/ARP" title="ARP – Ukrainian" hreflang="uk" lang="uk">Українська</a></li><li class="interlanguage-link interwiki-yo"><a href="https://yo.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol – Yoruba" hreflang="yo" lang="yo">Yorùbá</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE" title="地址解析协议 – Chinese" hreflang="zh" lang="zh">中文</a></li>					</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q15171#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 30 June 2016, at 14:44.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="https://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="https://wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="https://en.m.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;printable=yes&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" alt="Wikimedia Foundation" height="31" width="88"></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="Address%20Resolution%20Protocol%20-%20Wikipedia,%20the%20free%20encyclopedia-Dateien/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" height="31" width="88"></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","user":"ready"});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.eventLogging.subscriber","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.wikimediaEvents","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage","ext.centralNotice.startUp","ext.centralNotice.geoIP"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":90,"wgHostname":"mw1172"});});</script>
+	
+
+<div class="suggestions" style="display: none; font-size: 13.3333px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>

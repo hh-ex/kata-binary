@@ -2,7 +2,7 @@ defmodule BinaryKata do
 
   @doc """
   Should return `true` when given parameter start with UTF8 Byte-Order-Mark, otherwise `false`.
-  @see https://de.wikipedia.org/wiki/Byte_Order_Mark
+  @see https://en.wikipedia.org/wiki/Byte_order_mark
   """
   def has_utf8_bom?(_), do: raise "TODO: Implement me!"
 
@@ -19,7 +19,7 @@ defmodule BinaryKata do
   @doc """
   Detecting types of images by their first bytes / magic numbers.
 
-  @see https://de.wikipedia.org/wiki/JPEG_File_Interchange_Format
+  @see https://en.wikipedia.org/wiki/JPEG
   @see https://en.wikipedia.org/wiki/Portable_Network_Graphics
   @see https://en.wikipedia.org/wiki/GIF
   """
@@ -37,7 +37,7 @@ defmodule BinaryKata do
   @doc """
   Parsing Payload of a ARP packet. Padding will be omitted.
 
-  @see https://de.wikipedia.org/wiki/Address_Resolution_Protocol
+  @see https://en.wikipedia.org/wiki/Address_Resolution_Protocol
   """
   def parse_arp_packet_ipv4!(_) do
       raise "TODO: Implement me!"
