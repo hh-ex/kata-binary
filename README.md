@@ -15,6 +15,19 @@ This kata contains tasks for a few simple binary pattern matching functions like
 
 Have fun!
 
+## Hints
+
+* Have a look out for binary values and magic constants.
+* Also check for endianess which can be little or big.
+* Make sure you use byte and bits correctly.
+* Use `IO.puts` to see the stuff you are working with.
+* Use the `iex -S mix` shell to try stuff out.
+
+Get yourself a HEX Editor to "see" the binary stuff in a file.
+
+* Ubuntu: https://wiki.ubuntuusers.de/GHex/
+* Mac: http://ridiculousfish.com/hexfiend/
+
 ## Resources
 
 Elixir getting started with binaries: http://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html
