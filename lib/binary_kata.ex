@@ -49,22 +49,23 @@ defmodule BinaryKata do
     _ :: size(48),
     operation :: size(16),
     sender_address :: size(48),
-    sender_ip_1 :: size(8),
-    sender_ip_2 :: size(8),
-    sender_ip_3 :: size(8),
-    sender_ip_4 :: size(8),
+    sender_ip :: 4-binary,
     target_address :: size(48),
-    target_ip_1 :: size(8),
-    target_ip_2 :: size(8),
-    target_ip_3 :: size(8),
-    target_ip_4 :: size(8),
+    target_ip :: 4-binary,
     _ :: binary
-    >>) do
-
-    {arp_operation_to_atom(operation), sender_address, {sender_ip_1, sender_ip_2, sender_ip_3, sender_ip_4}, target_address, {target_ip_1, target_ip_2, target_ip_3, target_ip_4}}
+  >>) do
+    {
+      operation |> arp_operation_to_atom,
+      sender_address,
+      sender_ip |> ip_to_tuple,
+      target_address,
+      target_ip |> ip_to_tuple
+    }
   end
 
+
   # Helper for `parse_arp_packet_ipv4!`
+  defp ip_to_tuple(<< ip_1, ip_2, ip_3, ip_4 >>), do: {ip_1, ip_2, ip_3, ip_4}
   defp arp_operation_to_atom(1), do: :request
   defp arp_operation_to_atom(2), do: :response
 
