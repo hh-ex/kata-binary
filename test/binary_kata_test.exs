@@ -1,5 +1,5 @@
 defmodule BinaryKataTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: false
   doctest BinaryKata
 
   test "has_utf8_bom?" do
