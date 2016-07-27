@@ -20,7 +20,7 @@ Have fun!
 * Have a look out for binary values and magic constants.
 * Also check for endianess which can be little or big.
 * Make sure you use byte and bits correctly.
-* Use `IO.puts` to see the stuff you are working with.
+* Use `IO.inspect` to "see" the stuff you are working with.
 * Use the `iex -S mix` shell to try stuff out.
 
 Get yourself a HEX Editor to "see" the binary stuff in a file.
