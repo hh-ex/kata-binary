@@ -18,7 +18,7 @@ defmodule BinaryKataTest do
   end
 
   test "image_type!" do
-    assert :jfif == fixture_file("image.jpg") |> BinaryKata.image_type!
+    assert :jpeg == fixture_file("image.jpg") |> BinaryKata.image_type!
     assert :png == fixture_file("image.png") |>  BinaryKata.image_type!
     assert :gif == fixture_file("image.gif") |> BinaryKata.image_type!
     assert :unknown == "something else" |> BinaryKata.image_type!
