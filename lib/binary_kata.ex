@@ -10,7 +10,19 @@ defmodule BinaryKata do
   @doc """
   Remove a UTF8 BOM if exists.
   """
-  def remove_utf8_bom(_), do: raise "TODO: Implement me!"
+  # def remove_utf8_bom(_), do: raise "TODO: Implement me!"
+  def remove_utf8_bom(file) do
+    # file unless BinaryKata.has_utf8_bom? file
+    case has_utf8_bom? file do
+      true ->  priv_remove_bom(file)
+      false -> file
+    end
+  end
+
+  def priv_remove_bom(file) do
+    <<0xEF, 0xBB, 0xBF, chunks :: binary>> = file
+    chunks
+  end
 
   @doc """
   Add a UTF8 BOM if not exists.
