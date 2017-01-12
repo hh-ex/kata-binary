@@ -1,4 +1,5 @@
 defmodule BinaryKata do
+  require IEx
 
   @doc """
   Should return `true` when given parameter start with UTF8 Byte-Order-Mark, otherwise `false`.
@@ -17,14 +18,24 @@ defmodule BinaryKata do
       true ->
         <<_ :: size(24), chunks :: binary>> = file
         chunks
-      false -> file
+      false ->
+        file
     end
   end
 
   @doc """
   Add a UTF8 BOM if not exists.
   """
-  def add_utf8_bom(_), do: raise "TODO: Implement me!"
+  # def add_utf8_bom(_), do: raise "TODO: Implement me!"
+
+  def add_utf8_bom(file) do
+    case has_utf8_bom? file do
+      true ->
+        file
+      false ->
+        <<0xEF, 0xBB, 0xBF>> <> file
+    end
+  end
 
   @doc """
   Detecting types of images by their first bytes / magic numbers.
