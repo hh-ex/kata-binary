@@ -14,14 +14,11 @@ defmodule BinaryKata do
   def remove_utf8_bom(file) do
     # file unless BinaryKata.has_utf8_bom? file
     case has_utf8_bom? file do
-      true ->  priv_remove_bom(file)
+      true ->
+        <<_ :: size(24), chunks :: binary>> = file
+        chunks
       false -> file
     end
-  end
-
-  def priv_remove_bom(file) do
-    <<0xEF, 0xBB, 0xBF, chunks :: binary>> = file
-    chunks
   end
 
   @doc """
