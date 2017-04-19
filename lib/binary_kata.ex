@@ -4,7 +4,7 @@ defmodule BinaryKata do
   Should return `true` when given parameter start with UTF8 Byte-Order-Mark, otherwise `false`.
   @see https://en.wikipedia.org/wiki/Byte_order_mark
   """
-  def has_utf8_bom?(_), do: raise "TODO: Implement me!"
+  def has_utf8_bom?(_), do: raise "TODO: Implement me!!"
 
   @doc """
   Remove a UTF8 BOM if exists.
